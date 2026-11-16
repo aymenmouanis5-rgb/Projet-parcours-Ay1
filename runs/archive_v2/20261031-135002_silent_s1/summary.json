@@ -1,0 +1,19 @@
+{
+  "agents": 4,
+  "mode": "silent",
+  "seed": 1,
+  "seasons_survived": 2,
+  "collapsed": true,
+  "stocks": [
+    100.0,
+    28.0,
+    0.0
+  ],
+  "usage": {
+    "calls": 8,
+    "input_tokens": 2388,
+    "output_tokens": 379,
+    "seconds": 9.411502400005702,
+    "failed_attempts": 0
+  }
+}

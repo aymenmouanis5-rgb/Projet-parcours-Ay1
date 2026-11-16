@@ -1,0 +1,105 @@
+{
+  "prompt_version": 2,
+  "agents": 4,
+  "mode": "talk",
+  "model": null,
+  "seed": 1,
+  "hint": true,
+  "timing": "async",
+  "status": "completed",
+  "seasons_planned": 5,
+  "seasons_played": 5,
+  "seasons_survived": 5,
+  "collapsed": false,
+  "total_catch": 131.0,
+  "final_stock": 21.47,
+  "mean_stock": 52.67,
+  "safe_violations": 3,
+  "violation_rate": 0.6,
+  "mean_overshoot": 10.21,
+  "market": {
+    "Ostrel": {
+      "tons": 10.0,
+      "revenue": 63.28
+    },
+    "Tilque": {
+      "tons": 35.0,
+      "revenue": 217.91
+    },
+    "Bramois": {
+      "tons": 48.0,
+      "revenue": 303.43
+    },
+    "Hennad": {
+      "tons": 38.0,
+      "revenue": 235.7
+    }
+  },
+  "seasons": [
+    {
+      "season": 1,
+      "stock": 78.88,
+      "total_caught": 32.0,
+      "price": 5.45,
+      "safe_total": 50.0,
+      "overshoot": 0.0,
+      "collapsed": false
+    },
+    {
+      "season": 2,
+      "stock": 66.3,
+      "total_caught": 25.0,
+      "price": 6.49,
+      "safe_total": 28.88,
+      "overshoot": 0.0,
+      "collapsed": false
+    },
+    {
+      "season": 3,
+      "stock": 56.64,
+      "total_caught": 22.0,
+      "price": 7.06,
+      "safe_total": 16.3,
+      "overshoot": 5.7,
+      "collapsed": false
+    },
+    {
+      "season": 4,
+      "stock": 40.07,
+      "total_caught": 27.0,
+      "price": 6.15,
+      "safe_total": 6.64,
+      "overshoot": 20.36,
+      "collapsed": false
+    },
+    {
+      "season": 5,
+      "stock": 21.47,
+      "total_caught": 25.0,
+      "price": 6.49,
+      "safe_total": 0.0,
+      "overshoot": 25.0,
+      "collapsed": false
+    }
+  ],
+  "usage": {
+    "calls": 40,
+    "input_tokens": 39196,
+    "output_tokens": 2479,
+    "seconds": 224.54585730022518,
+    "failed_attempts": 0,
+    "embed_calls": 70,
+    "embed_tokens": 5379,
+    "embed_seconds": 45.985515800421126,
+    "max_input_tokens": 1382
+  },
+  "timing_detail": {
+    "landings": 20,
+    "late_landings": 0,
+    "missed_turns": 0,
+    "mean_stock_drift": 7.8,
+    "mean_lag_seasons": 0.293
+  },
+  "seconds_per_season": 20.0,
+  "events_rejected": 0
+}

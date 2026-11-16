@@ -1,0 +1,95 @@
+{
+  "prompt_version": 2,
+  "agents": 4,
+  "mode": "talk",
+  "model": "llama3.2:3b",
+  "seed": 1,
+  "hint": true,
+  "timing": "async",
+  "status": "completed",
+  "seasons_planned": 4,
+  "seasons_played": 4,
+  "seasons_survived": 4,
+  "collapsed": false,
+  "total_catch": 22.0,
+  "final_stock": 91.45,
+  "mean_stock": 95.74,
+  "safe_violations": 0,
+  "violation_rate": 0.0,
+  "mean_overshoot": 0.0,
+  "market": {
+    "Ostrel": {
+      "tons": 0.0,
+      "revenue": 0.0
+    },
+    "Tilque": {
+      "tons": 14.0,
+      "revenue": 173.45
+    },
+    "Bramois": {
+      "tons": 2.0,
+      "revenue": 24.0
+    },
+    "Hennad": {
+      "tons": 6.0,
+      "revenue": 72.0
+    }
+  },
+  "seasons": [
+    {
+      "season": 1,
+      "stock": 100.0,
+      "total_caught": 0.0,
+      "price": 20.0,
+      "safe_total": 50.0,
+      "overshoot": 0.0,
+      "collapsed": false
+    },
+    {
+      "season": 2,
+      "stock": 97.38,
+      "total_caught": 5.0,
+      "price": 14.12,
+      "safe_total": 50.0,
+      "overshoot": 0.0,
+      "collapsed": false
+    },
+    {
+      "season": 3,
+      "stock": 94.12,
+      "total_caught": 8.0,
+      "price": 12.0,
+      "safe_total": 47.38,
+      "overshoot": 0.0,
+      "collapsed": false
+    },
+    {
+      "season": 4,
+      "stock": 91.45,
+      "total_caught": 9.0,
+      "price": 11.43,
+      "safe_total": 44.12,
+      "overshoot": 0.0,
+      "collapsed": false
+    }
+  ],
+  "usage": {
+    "calls": 16,
+    "input_tokens": 12470,
+    "output_tokens": 950,
+    "seconds": 73.4812809000723,
+    "failed_attempts": 0,
+    "embed_calls": 31,
+    "embed_tokens": 2252,
+    "embed_seconds": 16.845898600120563
+  },
+  "timing_detail": {
+    "landings": 5,
+    "late_landings": 5,
+    "missed_turns": 11,
+    "mean_stock_drift": 5.32,
+    "mean_lag_seasons": 0.894
+  },
+  "seconds_per_season": 6.0,
+  "events_rejected": 0
+}

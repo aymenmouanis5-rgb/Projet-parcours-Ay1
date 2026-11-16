@@ -1,0 +1,103 @@
+{
+  "prompt_version": 2,
+  "agents": 4,
+  "mode": "talk",
+  "model": "llama3.2:3b",
+  "seed": 1,
+  "hint": false,
+  "status": "collapsed",
+  "seasons_planned": 10,
+  "seasons_played": 6,
+  "seasons_survived": 5,
+  "collapsed": true,
+  "total_catch": 144.0,
+  "final_stock": 2.51,
+  "mean_stock": 21.78,
+  "safe_violations": 5,
+  "violation_rate": 0.833,
+  "mean_overshoot": 12.04,
+  "market": {
+    "Ostrel": {
+      "tons": 12.0,
+      "revenue": 86.37
+    },
+    "Tilque": {
+      "tons": 72.0,
+      "revenue": 447.97
+    },
+    "Bramois": {
+      "tons": 40.0,
+      "revenue": 255.31
+    },
+    "Hennad": {
+      "tons": 20.0,
+      "revenue": 132.15
+    }
+  },
+  "seasons": [
+    {
+      "season": 1,
+      "stock": 74.66,
+      "total_caught": 37.0,
+      "price": 4.9,
+      "safe_total": 50.0,
+      "overshoot": 0.0,
+      "collapsed": false
+    },
+    {
+      "season": 2,
+      "stock": 60.13,
+      "total_caught": 27.0,
+      "price": 6.15,
+      "safe_total": 24.66,
+      "overshoot": 2.34,
+      "collapsed": false
+    },
+    {
+      "season": 3,
+      "stock": 45.37,
+      "total_caught": 26.0,
+      "price": 6.32,
+      "safe_total": 10.13,
+      "overshoot": 15.87,
+      "collapsed": false
+    },
+    {
+      "season": 4,
+      "stock": 27.18,
+      "total_caught": 26.0,
+      "price": 6.32,
+      "safe_total": 0.0,
+      "overshoot": 26.0,
+      "collapsed": false
+    },
+    {
+      "season": 5,
+      "stock": 10.51,
+      "total_caught": 20.0,
+      "price": 7.5,
+      "safe_total": 0.0,
+      "overshoot": 20.0,
+      "collapsed": false
+    },
+    {
+      "season": 6,
+      "stock": 2.51,
+      "total_caught": 8.0,
+      "price": 12.0,
+      "safe_total": 0.0,
+      "overshoot": 8.0,
+      "collapsed": true
+    }
+  ],
+  "usage": {
+    "calls": 48,
+    "input_tokens": 50233,
+    "output_tokens": 2777,
+    "seconds": 89.8191859999788,
+    "failed_attempts": 0,
+    "embed_calls": 60,
+    "embed_tokens": 6142,
+    "embed_seconds": 4.753697600273881
+  }
+}

@@ -1,0 +1,106 @@
+{
+  "agents": 4,
+  "mode": "talk",
+  "model": null,
+  "seed": 5,
+  "status": "collapsed",
+  "seasons_planned": 10,
+  "seasons_played": 10,
+  "seasons_survived": 9,
+  "collapsed": true,
+  "total_catch": 207.4,
+  "final_stock": 0.87,
+  "mean_stock": 51.65,
+  "safe_violations": 8,
+  "violation_rate": 0.8,
+  "mean_overshoot": 10.03,
+  "seasons": [
+    {
+      "season": 1,
+      "stock": 75.95,
+      "total_caught": 35.5,
+      "safe_total": 50.0,
+      "overshoot": 0.0,
+      "collapsed": false
+    },
+    {
+      "season": 2,
+      "stock": 52.49,
+      "total_caught": 35.5,
+      "safe_total": 25.95,
+      "overshoot": 9.55,
+      "collapsed": false
+    },
+    {
+      "season": 3,
+      "stock": 56.31,
+      "total_caught": 8.5,
+      "safe_total": 2.49,
+      "overshoot": 6.01,
+      "collapsed": false
+    },
+    {
+      "season": 4,
+      "stock": 54.73,
+      "total_caught": 13.8,
+      "safe_total": 6.31,
+      "overshoot": 7.49,
+      "collapsed": false
+    },
+    {
+      "season": 5,
+      "stock": 60.0,
+      "total_caught": 7.2,
+      "safe_total": 4.73,
+      "overshoot": 2.47,
+      "collapsed": false
+    },
+    {
+      "season": 6,
+      "stock": 64.48,
+      "total_caught": 8.0,
+      "safe_total": 10.0,
+      "overshoot": 0.0,
+      "collapsed": false
+    },
+    {
+      "season": 7,
+      "stock": 52.64,
+      "total_caught": 23.9,
+      "safe_total": 14.48,
+      "overshoot": 9.42,
+      "collapsed": false
+    },
+    {
+      "season": 8,
+      "stock": 56.99,
+      "total_caught": 8.0,
+      "safe_total": 2.64,
+      "overshoot": 5.36,
+      "collapsed": false
+    },
+    {
+      "season": 9,
+      "stock": 42.87,
+      "total_caught": 25.0,
+      "safe_total": 6.99,
+      "overshoot": 18.01,
+      "collapsed": false
+    },
+    {
+      "season": 10,
+      "stock": 0.87,
+      "total_caught": 42.0,
+      "safe_total": 0.0,
+      "overshoot": 42.0,
+      "collapsed": true
+    }
+  ],
+  "usage": {
+    "calls": 97,
+    "input_tokens": 73033,
+    "output_tokens": 5442,
+    "seconds": 126.75101459992584,
+    "failed_attempts": 1
+  }
+}

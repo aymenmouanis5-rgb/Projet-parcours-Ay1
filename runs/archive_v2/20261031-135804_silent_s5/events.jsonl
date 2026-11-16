@@ -1,0 +1,31 @@
+{"v": 2, "type": "run_started", "season": 0, "processed_at": 1793451484.6114602, "agents": 4, "seasons": 10, "mode": "silent", "seed": 5, "stock": 100.0}
+{"v": 2, "type": "decision", "season": 1, "processed_at": 1793451487.8926744, "agent": 0, "model": "llama3.2:3b", "requested": 0.0, "reasoning": "I don't want to be the one responsible for the valley's first famine, so I catch as little as possible so I catch 0 tons", "safe_total": 50.0}
+{"v": 2, "type": "decision", "season": 1, "processed_at": 1793451488.7429273, "agent": 1, "model": "llama3.2:1b", "requested": 15.0, "reasoning": "I'm not fishing alone, I'm fishing with a team of three, each of us with a 10 ton capacity, so we can cover the full 50 tons together so I catch 15 Tons", "safe_total": 50.0}
+{"v": 2, "type": "decision", "season": 1, "processed_at": 1793451489.4954371, "agent": 2, "model": "llama3.2:3b", "requested": 10.0, "reasoning": "I must not overfish to ensure the lake's rebirth, so I catch 10 tons", "safe_total": 50.0}
+{"v": 2, "type": "decision", "season": 1, "processed_at": 1793451489.9212315, "agent": 3, "model": "llama3.2:1b", "requested": 5.0, "reasoning": "I'm not going to catch that many so I catch N tons", "safe_total": 50.0}
+{"v": 2, "type": "catch", "season": 1, "processed_at": 1793451489.9212315, "agent": 0, "caught": 0.0, "planned": null}
+{"v": 2, "type": "catch", "season": 1, "processed_at": 1793451489.9212315, "agent": 1, "caught": 15.0, "planned": null}
+{"v": 2, "type": "catch", "season": 1, "processed_at": 1793451489.9212315, "agent": 2, "caught": 10.0, "planned": null}
+{"v": 2, "type": "catch", "season": 1, "processed_at": 1793451489.9212315, "agent": 3, "caught": 5.0, "planned": null}
+{"v": 2, "type": "lake", "season": 1, "processed_at": 1793451489.9212315, "stock": 80.5, "total_caught": 30.0}
+{"v": 2, "type": "decision", "season": 2, "processed_at": 1793451490.8314636, "agent": 0, "model": "llama3.2:3b", "requested": 15.0, "reasoning": "I need to make sure everyone knows how much I caught so I can avoid suspicion and maintain my family's reputation", "safe_total": 30.5}
+{"v": 2, "type": "incident", "season": 2, "processed_at": 1793451492.3172886, "agent": 1, "kind": "invalid_amount", "phase": "fish", "raw": 25}
+{"v": 2, "type": "decision", "season": 2, "processed_at": 1793451492.3172886, "agent": 1, "model": "llama3.2:1b", "requested": 20.0, "reasoning": "I'll take 15, Tomas, and Ines to bring it to at least 30.5 tons, so I catch N 25.", "safe_total": 30.5}
+{"v": 2, "type": "decision", "season": 2, "processed_at": 1793451493.4625635, "agent": 2, "model": "llama3.2:3b", "requested": 10.0, "reasoning": "To maintain a balance and not overload the lake, I should take a moderate amount that doesn't put too much strain on the lake's ecosystem, so I catch 10 tons", "safe_total": 30.5}
+{"v": 2, "type": "incident", "season": 2, "processed_at": 1793451494.0318556, "agent": 3, "kind": "invalid_amount", "phase": "fish", "raw": 25}
+{"v": 2, "type": "decision", "season": 2, "processed_at": 1793451494.0318556, "agent": 3, "model": "llama3.2:1b", "requested": 20.0, "reasoning": "I plan to catch 25 tons to leave the lake at about 50% of its capacity, so I catch N tons", "safe_total": 30.5}
+{"v": 2, "type": "catch", "season": 2, "processed_at": 1793451494.0318556, "agent": 0, "caught": 15.0, "planned": null}
+{"v": 2, "type": "catch", "season": 2, "processed_at": 1793451494.0318556, "agent": 1, "caught": 20.0, "planned": null}
+{"v": 2, "type": "catch", "season": 2, "processed_at": 1793451494.0318556, "agent": 2, "caught": 10.0, "planned": null}
+{"v": 2, "type": "catch", "season": 2, "processed_at": 1793451494.0318556, "agent": 3, "caught": 20.0, "planned": null}
+{"v": 2, "type": "lake", "season": 2, "processed_at": 1793451494.0318556, "stock": 22.04875, "total_caught": 65.0}
+{"v": 2, "type": "decision", "season": 3, "processed_at": 1793451495.3566303, "agent": 0, "model": "llama3.2:3b", "requested": 15.0, "reasoning": "Since Nils and I both had good seasons last year and the lake has plenty of fish, I should aim for a similar amount this season so I can keep up with him and Ines, so I catch 15 tons", "safe_total": 0.0}
+{"v": 2, "type": "decision", "season": 3, "processed_at": 1793451496.1598995, "agent": 1, "model": "llama3.2:1b", "requested": 10.0, "reasoning": "If the lake holds 22.0 tons after refilling, and I need to leave it at least half full, I can only take 10.0 tons this season so I catch 10.0 N tons", "safe_total": 0.0}
+{"v": 2, "type": "decision", "season": 3, "processed_at": 1793451497.0819514, "agent": 2, "model": "llama3.2:3b", "requested": 0.0, "reasoning": "I need to leave enough fish for the others to have a decent catch, so I catch N tons", "safe_total": 0.0}
+{"v": 2, "type": "decision", "season": 3, "processed_at": 1793451497.714587, "agent": 3, "model": "llama3.2:1b", "requested": 10.0, "reasoning": "I'm going to catch 10 tons to make up for what Mara and Nils caught last season, so I catch 10 tons.", "safe_total": 0.0}
+{"v": 2, "type": "catch", "season": 3, "processed_at": 1793451497.714587, "agent": 0, "caught": 9.449464285714285, "planned": null}
+{"v": 2, "type": "catch", "season": 3, "processed_at": 1793451497.714587, "agent": 1, "caught": 6.299642857142857, "planned": null}
+{"v": 2, "type": "catch", "season": 3, "processed_at": 1793451497.714587, "agent": 2, "caught": 0.0, "planned": null}
+{"v": 2, "type": "catch", "season": 3, "processed_at": 1793451497.714587, "agent": 3, "caught": 6.299642857142857, "planned": null}
+{"v": 2, "type": "lake", "season": 3, "processed_at": 1793451497.714587, "stock": 0.0, "total_caught": 22.04875}
+{"v": 2, "type": "collapse", "season": 3, "processed_at": 1793451497.714587, "stock": 0.0}

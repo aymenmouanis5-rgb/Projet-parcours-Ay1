@@ -1,0 +1,28 @@
+{
+  "agents": 4,
+  "mode": "talk",
+  "model": "llama3.2:3b",
+  "seed": 5,
+  "seasons_survived": 10,
+  "collapsed": false,
+  "stocks": [
+    100.0,
+    71.09,
+    59.55,
+    63.45,
+    57.84,
+    65.5,
+    72.45,
+    57.84,
+    66.46,
+    63.95,
+    71.96
+  ],
+  "usage": {
+    "calls": 80,
+    "input_tokens": 57165,
+    "output_tokens": 4046,
+    "seconds": 126.49167200020747,
+    "failed_attempts": 0
+  }
+}

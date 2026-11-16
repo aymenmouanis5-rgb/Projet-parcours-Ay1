@@ -1,0 +1,22 @@
+{
+  "agents": 4,
+  "mode": "silent",
+  "model": "llama3.2:3b",
+  "seed": 1,
+  "seasons_survived": 4,
+  "collapsed": true,
+  "stocks": [
+    100.0,
+    40.5,
+    28.65,
+    12.6,
+    0.0
+  ],
+  "usage": {
+    "calls": 16,
+    "input_tokens": 5468,
+    "output_tokens": 725,
+    "seconds": 20.06803669995861,
+    "failed_attempts": 0
+  }
+}

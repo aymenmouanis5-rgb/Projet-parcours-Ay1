@@ -1,0 +1,92 @@
+{"v": 3, "type": "run_started", "season": 0, "processed_at": 1793453538.9370456, "agents": 4, "seasons": 10, "mode": "rules", "seed": 1, "model": null, "stock": 100.0}
+{"v": 3, "type": "decision", "season": 1, "processed_at": 1793453538.9370456, "agent": 0, "model": "rules", "requested": 4.268728488224803, "rule": "take 5% of the stock", "safe_total": 50.0}
+{"v": 3, "type": "decision", "season": 1, "processed_at": 1793453538.9370456, "agent": 1, "model": "rules", "requested": 11.38973494774893, "rule": "take 10% of the stock", "safe_total": 50.0}
+{"v": 3, "type": "decision", "season": 1, "processed_at": 1793453538.9370456, "agent": 2, "model": "rules", "requested": 5.527549237953227, "rule": "take 5% of the stock", "safe_total": 50.0}
+{"v": 3, "type": "decision", "season": 1, "processed_at": 1793453538.9380453, "agent": 3, "model": "rules", "requested": 9.020276102957688, "rule": "take 10% of the stock", "safe_total": 50.0}
+{"v": 3, "type": "catch", "season": 1, "processed_at": 1793453538.9380453, "agent": 0, "caught": 4.268728488224803, "planned": null}
+{"v": 3, "type": "catch", "season": 1, "processed_at": 1793453538.9380453, "agent": 1, "caught": 11.38973494774893, "planned": null}
+{"v": 3, "type": "catch", "season": 1, "processed_at": 1793453538.9380453, "agent": 2, "caught": 5.527549237953227, "planned": null}
+{"v": 3, "type": "catch", "season": 1, "processed_at": 1793453538.9380453, "agent": 3, "caught": 9.020276102957688, "planned": null}
+{"v": 3, "type": "lake", "season": 1, "processed_at": 1793453538.9380453, "stock": 80.33475620319494, "total_caught": 30.206288776884648, "safe_total": 50.0, "safe_violation": false, "overshoot": 0.0}
+{"v": 3, "type": "decision", "season": 2, "processed_at": 1793453538.9380453, "agent": 0, "model": "rules", "requested": 4.009403386848592, "rule": "take 5% of the stock", "safe_total": 30.334756203194942}
+{"v": 3, "type": "decision", "season": 2, "processed_at": 1793453538.9380453, "agent": 1, "model": "rules", "requested": 7.871170700468307, "rule": "take 10% of the stock", "safe_total": 30.334756203194942}
+{"v": 3, "type": "decision", "season": 2, "processed_at": 1793453538.9390469, "agent": 2, "model": "rules", "requested": 4.260301500275761, "rule": "take 5% of the stock", "safe_total": 30.334756203194942}
+{"v": 3, "type": "decision", "season": 2, "processed_at": 1793453538.9390469, "agent": 3, "model": "rules", "requested": 8.96125642126513, "rule": "take 10% of the stock", "safe_total": 30.334756203194942}
+{"v": 3, "type": "catch", "season": 2, "processed_at": 1793453538.9390469, "agent": 0, "caught": 4.009403386848592, "planned": null}
+{"v": 3, "type": "catch", "season": 2, "processed_at": 1793453538.9390469, "agent": 1, "caught": 7.871170700468307, "planned": null}
+{"v": 3, "type": "catch", "season": 2, "processed_at": 1793453538.9390469, "agent": 2, "caught": 4.260301500275761, "planned": null}
+{"v": 3, "type": "catch", "season": 2, "processed_at": 1793453538.9390469, "agent": 3, "caught": 8.96125642126513, "planned": null}
+{"v": 3, "type": "lake", "season": 2, "processed_at": 1793453538.9390469, "stock": 67.59572241454134, "total_caught": 25.10213200885779, "safe_total": 30.334756203194942, "safe_violation": false, "overshoot": 0.0}
+{"v": 3, "type": "decision", "season": 3, "processed_at": 1793453538.9390469, "agent": 0, "model": "rules", "requested": 2.8307190280523487, "rule": "take 5% of the stock", "safe_total": 17.595722414541342}
+{"v": 3, "type": "decision", "season": 3, "processed_at": 1793453538.9390469, "agent": 1, "model": "rules", "requested": 5.484304519328679, "rule": "take 10% of the stock", "safe_total": 17.595722414541342}
+{"v": 3, "type": "decision", "season": 3, "processed_at": 1793453538.9390469, "agent": 2, "model": "rules", "requested": 3.8337118159482095, "rule": "take 5% of the stock", "safe_total": 17.595722414541342}
+{"v": 3, "type": "decision", "season": 3, "processed_at": 1793453538.9390469, "agent": 3, "model": "rules", "requested": 6.577785896853905, "rule": "take 10% of the stock", "safe_total": 17.595722414541342}
+{"v": 3, "type": "catch", "season": 3, "processed_at": 1793453538.9390469, "agent": 0, "caught": 2.8307190280523487, "planned": null}
+{"v": 3, "type": "catch", "season": 3, "processed_at": 1793453538.9395566, "agent": 1, "caught": 5.484304519328679, "planned": null}
+{"v": 3, "type": "catch", "season": 3, "processed_at": 1793453538.9395566, "agent": 2, "caught": 3.8337118159482095, "planned": null}
+{"v": 3, "type": "catch", "season": 3, "processed_at": 1793453538.9395566, "agent": 3, "caught": 6.577785896853905, "planned": null}
+{"v": 3, "type": "lake", "season": 3, "processed_at": 1793453538.9395566, "stock": 61.362807624211676, "total_caught": 18.72652126018314, "safe_total": 17.595722414541342, "safe_violation": true, "overshoot": 1.1307988456417988}
+{"v": 3, "type": "decision", "season": 4, "processed_at": 1793453538.9395566, "agent": 0, "model": "rules", "requested": 3.3900252260811654, "rule": "take 5% of the stock", "safe_total": 11.362807624211676}
+{"v": 3, "type": "decision", "season": 4, "processed_at": 1793453538.9395566, "agent": 1, "model": "rules", "requested": 4.9141939438021565, "rule": "take 10% of the stock", "safe_total": 11.362807624211676}
+{"v": 3, "type": "decision", "season": 4, "processed_at": 1793453538.9395566, "agent": 2, "model": "rules", "requested": 3.0011164791099114, "rule": "take 5% of the stock", "safe_total": 11.362807624211676}
+{"v": 3, "type": "decision", "season": 4, "processed_at": 1793453538.9395566, "agent": 3, "model": "rules", "requested": 6.680053497844731, "rule": "take 10% of the stock", "safe_total": 11.362807624211676}
+{"v": 3, "type": "catch", "season": 4, "processed_at": 1793453538.9395566, "agent": 0, "caught": 3.3900252260811654, "planned": null}
+{"v": 3, "type": "catch", "season": 4, "processed_at": 1793453538.9395566, "agent": 1, "caught": 4.9141939438021565, "planned": null}
+{"v": 3, "type": "catch", "season": 4, "processed_at": 1793453538.9395566, "agent": 2, "caught": 3.0011164791099114, "planned": null}
+{"v": 3, "type": "catch", "season": 4, "processed_at": 1793453538.9395566, "agent": 3, "caught": 6.680053497844731, "planned": null}
+{"v": 3, "type": "lake", "season": 4, "processed_at": 1793453538.9395566, "stock": 55.658125547254556, "total_caught": 17.985389146837964, "safe_total": 11.362807624211676, "safe_violation": true, "overshoot": 6.622581522626287}
+{"v": 3, "type": "decision", "season": 5, "processed_at": 1793453538.9395566, "agent": 0, "model": "rules", "requested": 2.480974550528976, "rule": "take 5% of the stock", "safe_total": 5.658125547254556}
+{"v": 3, "type": "decision", "season": 5, "processed_at": 1793453538.9395566, "agent": 1, "model": "rules", "requested": 6.557129845751598, "rule": "take 10% of the stock", "safe_total": 5.658125547254556}
+{"v": 3, "type": "decision", "season": 5, "processed_at": 1793453538.9395566, "agent": 2, "model": "rules", "requested": 3.229760274039831, "rule": "take 5% of the stock", "safe_total": 5.658125547254556}
+{"v": 3, "type": "decision", "season": 5, "processed_at": 1793453538.9395566, "agent": 3, "model": "rules", "requested": 4.520753288427161, "rule": "take 10% of the stock", "safe_total": 5.658125547254556}
+{"v": 3, "type": "catch", "season": 5, "processed_at": 1793453538.9395566, "agent": 0, "caught": 2.480974550528976, "planned": null}
+{"v": 3, "type": "catch", "season": 5, "processed_at": 1793453538.9401875, "agent": 1, "caught": 6.557129845751598, "planned": null}
+{"v": 3, "type": "catch", "season": 5, "processed_at": 1793453538.9401875, "agent": 2, "caught": 3.229760274039831, "planned": null}
+{"v": 3, "type": "catch", "season": 5, "processed_at": 1793453538.9401875, "agent": 3, "caught": 4.520753288427161, "planned": null}
+{"v": 3, "type": "lake", "season": 5, "processed_at": 1793453538.9401875, "stock": 50.75006828189547, "total_caught": 16.788617958747565, "safe_total": 5.658125547254556, "safe_violation": true, "overshoot": 11.130492411493009}
+{"v": 3, "type": "decision", "season": 6, "processed_at": 1793453538.9401875, "agent": 0, "model": "rules", "requested": 2.0558303149340142, "rule": "take 5% of the stock", "safe_total": 0.7500682818954729}
+{"v": 3, "type": "decision", "season": 6, "processed_at": 1793453538.9401875, "agent": 1, "model": "rules", "requested": 5.1590742610692315, "rule": "take 10% of the stock", "safe_total": 0.7500682818954729}
+{"v": 3, "type": "decision", "season": 6, "processed_at": 1793453538.9401875, "agent": 2, "model": "rules", "requested": 2.9832404140337063, "rule": "take 5% of the stock", "safe_total": 0.7500682818954729}
+{"v": 3, "type": "decision", "season": 6, "processed_at": 1793453538.9401875, "agent": 3, "model": "rules", "requested": 4.8338511062326255, "rule": "take 10% of the stock", "safe_total": 0.7500682818954729}
+{"v": 3, "type": "catch", "season": 6, "processed_at": 1793453538.9401875, "agent": 0, "caught": 2.0558303149340142, "planned": null}
+{"v": 3, "type": "catch", "season": 6, "processed_at": 1793453538.9401875, "agent": 1, "caught": 5.1590742610692315, "planned": null}
+{"v": 3, "type": "catch", "season": 6, "processed_at": 1793453538.9401875, "agent": 2, "caught": 2.9832404140337063, "planned": null}
+{"v": 3, "type": "catch", "season": 6, "processed_at": 1793453538.9401875, "agent": 3, "caught": 4.8338511062326255, "planned": null}
+{"v": 3, "type": "lake", "season": 6, "processed_at": 1793453538.9401875, "stock": 47.198204875150935, "total_caught": 15.031996096269577, "safe_total": 0.7500682818954729, "safe_violation": true, "overshoot": 14.281927814374104}
+{"v": 3, "type": "decision", "season": 7, "processed_at": 1793453538.9401875, "agent": 0, "model": "rules", "requested": 2.0923902494381346, "rule": "take 5% of the stock", "safe_total": 0.0}
+{"v": 3, "type": "decision", "season": 7, "processed_at": 1793453538.9401875, "agent": 1, "model": "rules", "requested": 4.572782174634084, "rule": "take 10% of the stock", "safe_total": 0.0}
+{"v": 3, "type": "decision", "season": 7, "processed_at": 1793453538.9401875, "agent": 2, "model": "rules", "requested": 1.9153416558399248, "rule": "take 5% of the stock", "safe_total": 0.0}
+{"v": 3, "type": "decision", "season": 7, "processed_at": 1793453538.9401875, "agent": 3, "model": "rules", "requested": 4.194394337366807, "rule": "take 10% of the stock", "safe_total": 0.0}
+{"v": 3, "type": "catch", "season": 7, "processed_at": 1793453538.9401875, "agent": 0, "caught": 2.0923902494381346, "planned": null}
+{"v": 3, "type": "catch", "season": 7, "processed_at": 1793453538.9401875, "agent": 1, "caught": 4.572782174634084, "planned": null}
+{"v": 3, "type": "catch", "season": 7, "processed_at": 1793453538.9401875, "agent": 2, "caught": 1.9153416558399248, "planned": null}
+{"v": 3, "type": "catch", "season": 7, "processed_at": 1793453538.9401875, "agent": 3, "caught": 4.194394337366807, "planned": null}
+{"v": 3, "type": "lake", "season": 7, "processed_at": 1793453538.9401875, "stock": 45.710127991675265, "total_caught": 12.77490841727895, "safe_total": 0.0, "safe_violation": true, "overshoot": 12.77490841727895}
+{"v": 3, "type": "decision", "season": 8, "processed_at": 1793453538.9401875, "agent": 0, "model": "rules", "requested": 2.228723078701697, "rule": "take 5% of the stock", "safe_total": 0.0}
+{"v": 3, "type": "decision", "season": 8, "processed_at": 1793453538.9401875, "agent": 1, "model": "rules", "requested": 4.563355879870173, "rule": "take 10% of the stock", "safe_total": 0.0}
+{"v": 3, "type": "decision", "season": 8, "processed_at": 1793453538.9401875, "agent": 2, "model": "rules", "requested": 2.041491520749869, "rule": "take 5% of the stock", "safe_total": 0.0}
+{"v": 3, "type": "decision", "season": 8, "processed_at": 1793453538.9401875, "agent": 3, "model": "rules", "requested": 4.078927805847373, "rule": "take 10% of the stock", "safe_total": 0.0}
+{"v": 3, "type": "catch", "season": 8, "processed_at": 1793453538.9401875, "agent": 0, "caught": 2.228723078701697, "planned": null}
+{"v": 3, "type": "catch", "season": 8, "processed_at": 1793453538.9401875, "agent": 1, "caught": 4.563355879870173, "planned": null}
+{"v": 3, "type": "catch", "season": 8, "processed_at": 1793453538.9401875, "agent": 2, "caught": 2.041491520749869, "planned": null}
+{"v": 3, "type": "catch", "season": 8, "processed_at": 1793453538.9401875, "agent": 3, "caught": 4.078927805847373, "planned": null}
+{"v": 3, "type": "lake", "season": 8, "processed_at": 1793453538.9401875, "stock": 43.818021987933754, "total_caught": 12.912498285169113, "safe_total": 0.0, "safe_violation": true, "overshoot": 12.912498285169113}
+{"v": 3, "type": "decision", "season": 9, "processed_at": 1793453538.9401875, "agent": 0, "model": "rules", "requested": 1.9444519256094663, "rule": "take 5% of the stock", "safe_total": 0.0}
+{"v": 3, "type": "decision", "season": 9, "processed_at": 1793453538.9401875, "agent": 1, "model": "rules", "requested": 4.310998349731763, "rule": "take 10% of the stock", "safe_total": 0.0}
+{"v": 3, "type": "decision", "season": 9, "processed_at": 1793453538.9401875, "agent": 2, "model": "rules", "requested": 2.006674022713847, "rule": "take 5% of the stock", "safe_total": 0.0}
+{"v": 3, "type": "decision", "season": 9, "processed_at": 1793453538.9401875, "agent": 3, "model": "rules", "requested": 3.5431072141489333, "rule": "take 10% of the stock", "safe_total": 0.0}
+{"v": 3, "type": "catch", "season": 9, "processed_at": 1793453538.9401875, "agent": 0, "caught": 1.9444519256094663, "planned": null}
+{"v": 3, "type": "catch", "season": 9, "processed_at": 1793453538.9401875, "agent": 1, "caught": 4.310998349731763, "planned": null}
+{"v": 3, "type": "catch", "season": 9, "processed_at": 1793453538.9401875, "agent": 2, "caught": 2.006674022713847, "planned": null}
+{"v": 3, "type": "catch", "season": 9, "processed_at": 1793453538.9401875, "agent": 3, "caught": 3.5431072141489333, "planned": null}
+{"v": 3, "type": "lake", "season": 9, "processed_at": 1793453538.9401875, "stock": 42.895091943379754, "total_caught": 11.80523151220401, "safe_total": 0.0, "safe_violation": true, "overshoot": 11.80523151220401}
+{"v": 3, "type": "decision", "season": 10, "processed_at": 1793453538.9401875, "agent": 0, "model": "rules", "requested": 2.4343633632511095, "rule": "take 5% of the stock", "safe_total": 0.0}
+{"v": 3, "type": "decision", "season": 10, "processed_at": 1793453538.9401875, "agent": 1, "model": "rules", "requested": 4.38637372876907, "rule": "take 10% of the stock", "safe_total": 0.0}
+{"v": 3, "type": "decision", "season": 10, "processed_at": 1793453538.9401875, "agent": 2, "model": "rules", "requested": 2.266829192789226, "rule": "take 5% of the stock", "safe_total": 0.0}
+{"v": 3, "type": "decision", "season": 10, "processed_at": 1793453538.9401875, "agent": 3, "model": "rules", "requested": 3.7505860102065536, "rule": "take 10% of the stock", "safe_total": 0.0}
+{"v": 3, "type": "catch", "season": 10, "processed_at": 1793453538.9401875, "agent": 0, "caught": 2.4343633632511095, "planned": null}
+{"v": 3, "type": "catch", "season": 10, "processed_at": 1793453538.9401875, "agent": 1, "caught": 4.38637372876907, "planned": null}
+{"v": 3, "type": "catch", "season": 10, "processed_at": 1793453538.9401875, "agent": 2, "caught": 2.266829192789226, "planned": null}
+{"v": 3, "type": "catch", "season": 10, "processed_at": 1793453538.9401875, "agent": 3, "caught": 3.7505860102065536, "planned": null}
+{"v": 3, "type": "lake", "season": 10, "processed_at": 1793453538.9401875, "stock": 40.56831136741877, "total_caught": 12.83815229501596, "safe_total": 0.0, "safe_violation": true, "overshoot": 12.83815229501596}
+{"v": 3, "type": "run_ended", "season": 10, "processed_at": 1793453538.9401875, "status": "completed", "seasons_survived": 10, "total_catch": 174.17, "final_stock": 40.57, "mean_stock": 53.59, "safe_violations": 8}

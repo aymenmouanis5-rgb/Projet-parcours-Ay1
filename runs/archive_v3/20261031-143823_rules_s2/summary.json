@@ -1,0 +1,106 @@
+{
+  "agents": 4,
+  "mode": "rules",
+  "model": null,
+  "seed": 2,
+  "status": "completed",
+  "seasons_planned": 10,
+  "seasons_played": 10,
+  "seasons_survived": 10,
+  "collapsed": false,
+  "total_catch": 176.49,
+  "final_stock": 36.23,
+  "mean_stock": 52.07,
+  "safe_violations": 8,
+  "violation_rate": 0.8,
+  "mean_overshoot": 9.02,
+  "seasons": [
+    {
+      "season": 1,
+      "stock": 80.38,
+      "total_caught": 30.16,
+      "safe_total": 50.0,
+      "overshoot": 0.0,
+      "collapsed": false
+    },
+    {
+      "season": 2,
+      "stock": 67.67,
+      "total_caught": 25.07,
+      "safe_total": 30.38,
+      "overshoot": 0.0,
+      "collapsed": false
+    },
+    {
+      "season": 3,
+      "stock": 60.22,
+      "total_caught": 19.92,
+      "safe_total": 17.67,
+      "overshoot": 2.25,
+      "collapsed": false
+    },
+    {
+      "season": 4,
+      "stock": 53.13,
+      "total_caught": 19.19,
+      "safe_total": 10.22,
+      "overshoot": 8.96,
+      "collapsed": false
+    },
+    {
+      "season": 5,
+      "stock": 48.85,
+      "total_caught": 15.96,
+      "safe_total": 3.13,
+      "overshoot": 12.83,
+      "collapsed": false
+    },
+    {
+      "season": 6,
+      "stock": 47.48,
+      "total_caught": 12.89,
+      "safe_total": 0.0,
+      "overshoot": 12.89,
+      "collapsed": false
+    },
+    {
+      "season": 7,
+      "stock": 43.43,
+      "total_caught": 15.01,
+      "safe_total": 0.0,
+      "overshoot": 15.01,
+      "collapsed": false
+    },
+    {
+      "season": 8,
+      "stock": 43.16,
+      "total_caught": 11.19,
+      "safe_total": 0.0,
+      "overshoot": 11.19,
+      "collapsed": false
+    },
+    {
+      "season": 9,
+      "stock": 40.19,
+      "total_caught": 13.42,
+      "safe_total": 0.0,
+      "overshoot": 13.42,
+      "collapsed": false
+    },
+    {
+      "season": 10,
+      "stock": 36.23,
+      "total_caught": 13.69,
+      "safe_total": 0.0,
+      "overshoot": 13.69,
+      "collapsed": false
+    }
+  ],
+  "usage": {
+    "calls": 0,
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "seconds": 0.0,
+    "failed_attempts": 0
+  }
+}

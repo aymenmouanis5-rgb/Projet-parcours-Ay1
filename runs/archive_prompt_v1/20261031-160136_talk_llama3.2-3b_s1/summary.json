@@ -1,0 +1,85 @@
+{
+  "prompt_version": 1,
+  "agents": 4,
+  "mode": "talk",
+  "model": "llama3.2:3b",
+  "seed": 1,
+  "hint": true,
+  "status": "collapsed",
+  "seasons_planned": 10,
+  "seasons_played": 4,
+  "seasons_survived": 3,
+  "collapsed": true,
+  "total_catch": 130.59,
+  "final_stock": 0.0,
+  "mean_stock": 14.68,
+  "safe_violations": 3,
+  "violation_rate": 0.75,
+  "mean_overshoot": 17.2,
+  "market": {
+    "Ostrel": {
+      "tons": 29.96,
+      "revenue": 161.34
+    },
+    "Tilque": {
+      "tons": 35.71,
+      "revenue": 190.52
+    },
+    "Bramois": {
+      "tons": 35.96,
+      "revenue": 190.33
+    },
+    "Hennad": {
+      "tons": 28.96,
+      "revenue": 155.76
+    }
+  },
+  "seasons": [
+    {
+      "season": 1,
+      "stock": 73.78,
+      "total_caught": 38.0,
+      "price": 4.8,
+      "safe_total": 50.0,
+      "overshoot": 0.0,
+      "collapsed": false
+    },
+    {
+      "season": 2,
+      "stock": 48.41,
+      "total_caught": 37.0,
+      "price": 4.9,
+      "safe_total": 23.78,
+      "overshoot": 13.22,
+      "collapsed": false
+    },
+    {
+      "season": 3,
+      "stock": 24.59,
+      "total_caught": 31.0,
+      "price": 5.58,
+      "safe_total": 0.0,
+      "overshoot": 31.0,
+      "collapsed": false
+    },
+    {
+      "season": 4,
+      "stock": 0.0,
+      "total_caught": 24.59,
+      "price": 6.56,
+      "safe_total": 0.0,
+      "overshoot": 24.59,
+      "collapsed": true
+    }
+  ],
+  "usage": {
+    "calls": 32,
+    "input_tokens": 36684,
+    "output_tokens": 1858,
+    "seconds": 58.340857699804474,
+    "failed_attempts": 0,
+    "embed_calls": 40,
+    "embed_tokens": 8743,
+    "embed_seconds": 4.096615199639928
+  }
+}

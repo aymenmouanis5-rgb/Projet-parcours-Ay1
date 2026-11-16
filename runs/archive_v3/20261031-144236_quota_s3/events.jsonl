@@ -1,0 +1,92 @@
+{"v": 3, "type": "run_started", "season": 0, "processed_at": 1793454157.0601923, "agents": 4, "seasons": 10, "mode": "quota", "seed": 3, "model": null, "stock": 100.0}
+{"v": 3, "type": "decision", "season": 1, "processed_at": 1793454157.0601923, "agent": 0, "model": "quota", "requested": 3.0, "rule": "take 3 tons", "safe_total": 50.0}
+{"v": 3, "type": "decision", "season": 1, "processed_at": 1793454157.0601923, "agent": 1, "model": "quota", "requested": 3.0, "rule": "take 3 tons", "safe_total": 50.0}
+{"v": 3, "type": "decision", "season": 1, "processed_at": 1793454157.0601923, "agent": 2, "model": "quota", "requested": 3.0, "rule": "take 3 tons", "safe_total": 50.0}
+{"v": 3, "type": "decision", "season": 1, "processed_at": 1793454157.10752, "agent": 3, "model": "quota", "requested": 3.0, "rule": "take 3 tons", "safe_total": 50.0}
+{"v": 3, "type": "catch", "season": 1, "processed_at": 1793454157.10752, "agent": 0, "caught": 3.0, "planned": null}
+{"v": 3, "type": "catch", "season": 1, "processed_at": 1793454157.10752, "agent": 1, "caught": 3.0, "planned": null}
+{"v": 3, "type": "catch", "season": 1, "processed_at": 1793454157.10752, "agent": 2, "caught": 3.0, "planned": null}
+{"v": 3, "type": "catch", "season": 1, "processed_at": 1793454157.10752, "agent": 3, "caught": 3.0, "planned": null}
+{"v": 3, "type": "lake", "season": 1, "processed_at": 1793454157.10752, "stock": 93.28, "total_caught": 12.0, "safe_total": 50.0, "safe_violation": false, "overshoot": 0.0}
+{"v": 3, "type": "decision", "season": 2, "processed_at": 1793454157.10752, "agent": 0, "model": "quota", "requested": 3.0, "rule": "take 3 tons", "safe_total": 43.28}
+{"v": 3, "type": "decision", "season": 2, "processed_at": 1793454157.10752, "agent": 1, "model": "quota", "requested": 3.0, "rule": "take 3 tons", "safe_total": 43.28}
+{"v": 3, "type": "decision", "season": 2, "processed_at": 1793454157.10752, "agent": 2, "model": "quota", "requested": 3.0, "rule": "take 3 tons", "safe_total": 43.28}
+{"v": 3, "type": "decision", "season": 2, "processed_at": 1793454157.10752, "agent": 3, "model": "quota", "requested": 3.0, "rule": "take 3 tons", "safe_total": 43.28}
+{"v": 3, "type": "catch", "season": 2, "processed_at": 1793454157.10752, "agent": 0, "caught": 3.0, "planned": null}
+{"v": 3, "type": "catch", "season": 2, "processed_at": 1793454157.10752, "agent": 1, "caught": 3.0, "planned": null}
+{"v": 3, "type": "catch", "season": 2, "processed_at": 1793454157.10752, "agent": 2, "caught": 3.0, "planned": null}
+{"v": 3, "type": "catch", "season": 2, "processed_at": 1793454157.10752, "agent": 3, "caught": 3.0, "planned": null}
+{"v": 3, "type": "lake", "season": 2, "processed_at": 1793454157.10752, "stock": 88.887808, "total_caught": 12.0, "safe_total": 43.28, "safe_violation": false, "overshoot": 0.0}
+{"v": 3, "type": "decision", "season": 3, "processed_at": 1793454157.10752, "agent": 0, "model": "quota", "requested": 3.0, "rule": "take 3 tons", "safe_total": 38.88780800000001}
+{"v": 3, "type": "decision", "season": 3, "processed_at": 1793454157.10752, "agent": 1, "model": "quota", "requested": 3.0, "rule": "take 3 tons", "safe_total": 38.88780800000001}
+{"v": 3, "type": "decision", "season": 3, "processed_at": 1793454157.10752, "agent": 2, "model": "quota", "requested": 3.0, "rule": "take 3 tons", "safe_total": 38.88780800000001}
+{"v": 3, "type": "decision", "season": 3, "processed_at": 1793454157.10752, "agent": 3, "model": "quota", "requested": 3.0, "rule": "take 3 tons", "safe_total": 38.88780800000001}
+{"v": 3, "type": "catch", "season": 3, "processed_at": 1793454157.10752, "agent": 0, "caught": 3.0, "planned": null}
+{"v": 3, "type": "catch", "season": 3, "processed_at": 1793454157.10752, "agent": 1, "caught": 3.0, "planned": null}
+{"v": 3, "type": "catch", "season": 3, "processed_at": 1793454157.10752, "agent": 2, "caught": 3.0, "planned": null}
+{"v": 3, "type": "catch", "season": 3, "processed_at": 1793454157.10752, "agent": 3, "caught": 3.0, "planned": null}
+{"v": 3, "type": "lake", "season": 3, "processed_at": 1793454157.10752, "stock": 85.7730369047757, "total_caught": 12.0, "safe_total": 38.88780800000001, "safe_violation": false, "overshoot": 0.0}
+{"v": 3, "type": "decision", "season": 4, "processed_at": 1793454157.10752, "agent": 0, "model": "quota", "requested": 3.0, "rule": "take 3 tons", "safe_total": 35.773036904775694}
+{"v": 3, "type": "decision", "season": 4, "processed_at": 1793454157.10752, "agent": 1, "model": "quota", "requested": 3.0, "rule": "take 3 tons", "safe_total": 35.773036904775694}
+{"v": 3, "type": "decision", "season": 4, "processed_at": 1793454157.10752, "agent": 2, "model": "quota", "requested": 3.0, "rule": "take 3 tons", "safe_total": 35.773036904775694}
+{"v": 3, "type": "decision", "season": 4, "processed_at": 1793454157.10752, "agent": 3, "model": "quota", "requested": 3.0, "rule": "take 3 tons", "safe_total": 35.773036904775694}
+{"v": 3, "type": "catch", "season": 4, "processed_at": 1793454157.10752, "agent": 0, "caught": 3.0, "planned": null}
+{"v": 3, "type": "catch", "season": 4, "processed_at": 1793454157.10752, "agent": 1, "caught": 3.0, "planned": null}
+{"v": 3, "type": "catch", "season": 4, "processed_at": 1793454157.10752, "agent": 2, "caught": 3.0, "planned": null}
+{"v": 3, "type": "catch", "season": 4, "processed_at": 1793454157.10752, "agent": 3, "caught": 3.0, "planned": null}
+{"v": 3, "type": "lake", "season": 4, "processed_at": 1793454157.10752, "stock": 83.44725048639656, "total_caught": 12.0, "safe_total": 35.773036904775694, "safe_violation": false, "overshoot": 0.0}
+{"v": 3, "type": "decision", "season": 5, "processed_at": 1793454157.1090274, "agent": 0, "model": "quota", "requested": 3.0, "rule": "take 3 tons", "safe_total": 33.447250486396555}
+{"v": 3, "type": "decision", "season": 5, "processed_at": 1793454157.1090274, "agent": 1, "model": "quota", "requested": 3.0, "rule": "take 3 tons", "safe_total": 33.447250486396555}
+{"v": 3, "type": "decision", "season": 5, "processed_at": 1793454157.1090274, "agent": 2, "model": "quota", "requested": 3.0, "rule": "take 3 tons", "safe_total": 33.447250486396555}
+{"v": 3, "type": "decision", "season": 5, "processed_at": 1793454157.1090274, "agent": 3, "model": "quota", "requested": 3.0, "rule": "take 3 tons", "safe_total": 33.447250486396555}
+{"v": 3, "type": "catch", "season": 5, "processed_at": 1793454157.1090274, "agent": 0, "caught": 3.0, "planned": null}
+{"v": 3, "type": "catch", "season": 5, "processed_at": 1793454157.1090274, "agent": 1, "caught": 3.0, "planned": null}
+{"v": 3, "type": "catch", "season": 5, "processed_at": 1793454157.1090274, "agent": 2, "caught": 3.0, "planned": null}
+{"v": 3, "type": "catch", "season": 5, "processed_at": 1793454157.1090274, "agent": 3, "caught": 3.0, "planned": null}
+{"v": 3, "type": "lake", "season": 5, "processed_at": 1793454157.1090274, "stock": 81.64732771926538, "total_caught": 12.0, "safe_total": 33.447250486396555, "safe_violation": false, "overshoot": 0.0}
+{"v": 3, "type": "decision", "season": 6, "processed_at": 1793454157.1090274, "agent": 0, "model": "quota", "requested": 3.0, "rule": "take 3 tons", "safe_total": 31.647327719265377}
+{"v": 3, "type": "decision", "season": 6, "processed_at": 1793454157.1090274, "agent": 1, "model": "quota", "requested": 3.0, "rule": "take 3 tons", "safe_total": 31.647327719265377}
+{"v": 3, "type": "decision", "season": 6, "processed_at": 1793454157.1090274, "agent": 2, "model": "quota", "requested": 3.0, "rule": "take 3 tons", "safe_total": 31.647327719265377}
+{"v": 3, "type": "decision", "season": 6, "processed_at": 1793454157.1090274, "agent": 3, "model": "quota", "requested": 3.0, "rule": "take 3 tons", "safe_total": 31.647327719265377}
+{"v": 3, "type": "catch", "season": 6, "processed_at": 1793454157.1090274, "agent": 0, "caught": 3.0, "planned": null}
+{"v": 3, "type": "catch", "season": 6, "processed_at": 1793454157.1090274, "agent": 1, "caught": 3.0, "planned": null}
+{"v": 3, "type": "catch", "season": 6, "processed_at": 1793454157.1090274, "agent": 2, "caught": 3.0, "planned": null}
+{"v": 3, "type": "catch", "season": 6, "processed_at": 1793454157.1090274, "agent": 3, "caught": 3.0, "planned": null}
+{"v": 3, "type": "lake", "season": 6, "processed_at": 1793454157.1090274, "stock": 80.2172402867243, "total_caught": 12.0, "safe_total": 31.647327719265377, "safe_violation": false, "overshoot": 0.0}
+{"v": 3, "type": "decision", "season": 7, "processed_at": 1793454157.1090274, "agent": 0, "model": "quota", "requested": 3.0, "rule": "take 3 tons", "safe_total": 30.217240286724305}
+{"v": 3, "type": "decision", "season": 7, "processed_at": 1793454157.1090274, "agent": 1, "model": "quota", "requested": 3.0, "rule": "take 3 tons", "safe_total": 30.217240286724305}
+{"v": 3, "type": "decision", "season": 7, "processed_at": 1793454157.1090274, "agent": 2, "model": "quota", "requested": 3.0, "rule": "take 3 tons", "safe_total": 30.217240286724305}
+{"v": 3, "type": "decision", "season": 7, "processed_at": 1793454157.1090274, "agent": 3, "model": "quota", "requested": 3.0, "rule": "take 3 tons", "safe_total": 30.217240286724305}
+{"v": 3, "type": "catch", "season": 7, "processed_at": 1793454157.1090274, "agent": 0, "caught": 3.0, "planned": null}
+{"v": 3, "type": "catch", "season": 7, "processed_at": 1793454157.1090274, "agent": 1, "caught": 3.0, "planned": null}
+{"v": 3, "type": "catch", "season": 7, "processed_at": 1793454157.1090274, "agent": 2, "caught": 3.0, "planned": null}
+{"v": 3, "type": "catch", "season": 7, "processed_at": 1793454157.1090274, "agent": 3, "caught": 3.0, "planned": null}
+{"v": 3, "type": "lake", "season": 7, "processed_at": 1793454157.1090274, "stock": 79.05790106840305, "total_caught": 12.0, "safe_total": 30.217240286724305, "safe_violation": false, "overshoot": 0.0}
+{"v": 3, "type": "decision", "season": 8, "processed_at": 1793454157.1090274, "agent": 0, "model": "quota", "requested": 3.0, "rule": "take 3 tons", "safe_total": 29.057901068403055}
+{"v": 3, "type": "decision", "season": 8, "processed_at": 1793454157.1090274, "agent": 1, "model": "quota", "requested": 3.0, "rule": "take 3 tons", "safe_total": 29.057901068403055}
+{"v": 3, "type": "decision", "season": 8, "processed_at": 1793454157.1090274, "agent": 2, "model": "quota", "requested": 3.0, "rule": "take 3 tons", "safe_total": 29.057901068403055}
+{"v": 3, "type": "decision", "season": 8, "processed_at": 1793454157.1090274, "agent": 3, "model": "quota", "requested": 3.0, "rule": "take 3 tons", "safe_total": 29.057901068403055}
+{"v": 3, "type": "catch", "season": 8, "processed_at": 1793454157.1090274, "agent": 0, "caught": 3.0, "planned": null}
+{"v": 3, "type": "catch", "season": 8, "processed_at": 1793454157.1090274, "agent": 1, "caught": 3.0, "planned": null}
+{"v": 3, "type": "catch", "season": 8, "processed_at": 1793454157.1090274, "agent": 2, "caught": 3.0, "planned": null}
+{"v": 3, "type": "catch", "season": 8, "processed_at": 1793454157.1090274, "agent": 3, "caught": 3.0, "planned": null}
+{"v": 3, "type": "lake", "season": 8, "processed_at": 1793454157.1090274, "stock": 78.10304112410593, "total_caught": 12.0, "safe_total": 29.057901068403055, "safe_violation": false, "overshoot": 0.0}
+{"v": 3, "type": "decision", "season": 9, "processed_at": 1793454157.1090274, "agent": 0, "model": "quota", "requested": 3.0, "rule": "take 3 tons", "safe_total": 28.10304112410593}
+{"v": 3, "type": "decision", "season": 9, "processed_at": 1793454157.1090274, "agent": 1, "model": "quota", "requested": 3.0, "rule": "take 3 tons", "safe_total": 28.10304112410593}
+{"v": 3, "type": "decision", "season": 9, "processed_at": 1793454157.1090274, "agent": 2, "model": "quota", "requested": 3.0, "rule": "take 3 tons", "safe_total": 28.10304112410593}
+{"v": 3, "type": "decision", "season": 9, "processed_at": 1793454157.1090274, "agent": 3, "model": "quota", "requested": 3.0, "rule": "take 3 tons", "safe_total": 28.10304112410593}
+{"v": 3, "type": "catch", "season": 9, "processed_at": 1793454157.1090274, "agent": 0, "caught": 3.0, "planned": null}
+{"v": 3, "type": "catch", "season": 9, "processed_at": 1793454157.1090274, "agent": 1, "caught": 3.0, "planned": null}
+{"v": 3, "type": "catch", "season": 9, "processed_at": 1793454157.1090274, "agent": 2, "caught": 3.0, "planned": null}
+{"v": 3, "type": "catch", "season": 9, "processed_at": 1793454157.1090274, "agent": 3, "caught": 3.0, "planned": null}
+{"v": 3, "type": "lake", "season": 9, "processed_at": 1793454157.1090274, "stock": 77.3065014568827, "total_caught": 12.0, "safe_total": 28.10304112410593, "safe_violation": false, "overshoot": 0.0}
+{"v": 3, "type": "decision", "season": 10, "processed_at": 1793454157.110057, "agent": 0, "model": "quota", "requested": 3.0, "rule": "take 3 tons", "safe_total": 27.3065014568827}
+{"v": 3, "type": "decision", "season": 10, "processed_at": 1793454157.110057, "agent": 1, "model": "quota", "requested": 3.0, "rule": "take 3 tons", "safe_total": 27.3065014568827}
+{"v": 3, "type": "decision", "season": 10, "processed_at": 1793454157.110057, "agent": 2, "model": "quota", "requested": 3.0, "rule": "take 3 tons", "safe_total": 27.3065014568827}
+{"v": 3, "type": "decision", "season": 10, "processed_at": 1793454157.110057, "agent": 3, "model": "quota", "requested": 3.0, "rule": "take 3 tons", "safe_total": 27.3065014568827}
+{"v": 3, "type": "catch", "season": 10, "processed_at": 1793454157.110057, "agent": 0, "caught": 3.0, "planned": null}
+{"v": 3, "type": "catch", "season": 10, "processed_at": 1793454157.110057, "agent": 1, "caught": 3.0, "planned": null}
+{"v": 3, "type": "catch", "season": 10, "processed_at": 1793454157.110057, "agent": 2, "caught": 3.0, "planned": null}
+{"v": 3, "type": "catch", "season": 10, "processed_at": 1793454157.110057, "agent": 3, "caught": 3.0, "planned": null}
+{"v": 3, "type": "lake", "season": 10, "processed_at": 1793454157.110057, "stock": 76.63505652263494, "total_caught": 12.0, "safe_total": 27.3065014568827, "safe_violation": false, "overshoot": 0.0}
+{"v": 3, "type": "run_ended", "season": 10, "processed_at": 1793454157.110057, "status": "completed", "seasons_survived": 10, "total_catch": 120.0, "final_stock": 76.64, "mean_stock": 82.44, "safe_violations": 0}

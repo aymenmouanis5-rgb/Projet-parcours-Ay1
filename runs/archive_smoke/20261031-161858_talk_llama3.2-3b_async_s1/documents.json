@@ -1,0 +1,344 @@
+[
+ {
+  "id": "famine",
+  "type": "shortage_story",
+  "sim_time": -41.0,
+  "visibility": "shared",
+  "text": "The Hollow Winters (as told in Ostrel)\n\nForty-one years ago, the lake of Vellmor was so full that the nets broke under the weight of the catch. That summer, the four hamlets fished as if it would never end. Tilque built two new boats. Bramois sold fish as far as the mountain pass. No one counted, because there seemed to be no reason to.\n\nBy autumn, the nets came up light. The elders said it was the cold. In spring they came up empty. The water was clear and still, and no fish moved beneath the boats.\n\nThen came the hollow winters: three of them, one after another. The lake did not come back. Families ate the seed grain, then the dogs, then the leather of their own boots. In Hennad, the children stopped crying, because they no longer had the strength. Old Berit of Ostrel walked out onto the ice one night so that her grandchildren would have her share. They found her shawl in spring, frozen into the shore.\n\nEleven families left the valley over the pass. Not all of them reached the other side.\n\nWhen the fish finally returned, it was slowly, a few at a time, over many years. The survivors of Ostrel swore an oath on Berit's shawl: never again take more than the lake can give back.\n\nThe shawl still hangs in the elder's house, where the fishermen meet each evening.",
+  "hamlet": "Ostrel",
+  "owner": null
+ },
+ {
+  "id": "market_bramois",
+  "type": "market_record",
+  "sim_time": -1.0,
+  "visibility": "shared",
+  "text": "Bramois market account, last season\n\nBramois sold steadily to the traders who cross the pass, and the salting sheds ran until the cold came. The fish were of fair size. Buyers complained of the price in the spring, when little was landed, and complained again in late summer that they had bought too dear.\n\nThe great dispute of the season was not about fish at all, but about whose nets had been drying on whose stretch of shore. It was settled at the elder's table with a shared meal and no hard feelings.\n\nTakings were close to those of the year before. Some sellers think the valley has found its ordinary rhythm and that the old fears belong to another age. Others keep their takings in a box under the floor and say that ordinary rhythms are what people remember just before they end.",
+  "hamlet": "Bramois",
+  "owner": null
+ },
+ {
+  "id": "market_hennad",
+  "type": "market_record",
+  "sim_time": -1.0,
+  "visibility": "shared",
+  "text": "Hennad market account, last season\n\nA thin season at the smallest market in the valley. The boats of Hennad work the far shore, and the catch there was uneven: some weeks plenty, some weeks hardly worth the walk to the stalls. Traders rarely come this far, so most of what was landed was carried to neighbours or dried for winter.\n\nTwo young fishers with loans on their boats sold everything they caught and kept nothing back. They ate from their parents' stores by autumn. Their lender has been patient so far, and has said so loudly enough for the whole quay to hear.\n\nStill, people in Hennad remark that no one has gone hungry in many years, and that the far shore has had poor seasons before and recovered from them. The clerk records this as hope rather than as an account.",
+  "hamlet": "Hennad",
+  "owner": null
+ },
+ {
+  "id": "market_ostrel",
+  "type": "market_record",
+  "sim_time": -1.0,
+  "visibility": "shared",
+  "text": "Ostrel market account, last season\n\nA quiet season at the Ostrel stalls. The old families brought in much what their parents would have brought in, no more, and most of it went to neighbours rather than to traders. Prices held through the summer and rose a little before the first frost, when the pass closed and the road traders stopped coming.\n\nTwo households asked for credit against next season's catch and received it. Nobody in Ostrel went short, but nobody put much aside either. The smokehouse roof still needs mending, and the money for it was not found.\n\nThe clerk notes that the younger fishers of Ostrel grumble about how little they sell compared with Tilque. Their elders answer that a thin purse is easier to carry through winter than an empty lake. The younger ones reply that thin purses have never mended a roof.",
+  "hamlet": "Ostrel",
+  "owner": null
+ },
+ {
+  "id": "market_tilque",
+  "type": "market_record",
+  "sim_time": -1.0,
+  "visibility": "shared",
+  "text": "Tilque market account, last season\n\nThe busiest stalls in the valley again. Boats from Tilque went out early and came home heavy, and traders paid good coin through the warm months. When too many boats landed in the same week the price sagged, and when the weather kept them ashore it jumped back. Those who sold late in the season did best.\n\nThree boat loans were paid down, though none was cleared. One family gave up its boat to its lender and now rents it back by the season. Others say they could finish paying within a few good years, if the good years last.\n\nThe clerk writes that debt does not wait for the lake. A fisher who owes money must land fish this season, whatever anyone says about the next one. Nobody on the quay disputes it, and nobody on the quay enjoys it.",
+  "hamlet": "Tilque",
+  "owner": null
+ },
+ {
+  "id": "night_nets",
+  "type": "reputation_story",
+  "sim_time": -15.0,
+  "visibility": "shared",
+  "text": "Halvard of the Night Nets\n\nHalvard of Bramois was a fine talker. At the elder's table he spoke more warmly of the lake than anyone, and he was known for his moderation. Only his boat was oddly low in the water some mornings.\n\nA boy checking eel traps saw the truth by chance: Halvard, rowing without a lantern, lifting nets long before dawn, week after week. The story was all over the valley within days.\n\nNobody struck him, and there was no one to fine him. It was simply that no one would crew with him any more. When his mooring rope snapped in a gale, no one came to help. The stallholders of Bramois served him last, and his daughter's marriage to a boy from Ostrel was quietly called off.\n\nPeople said afterwards that it was not the fish they could not forgive, but the speeches. He left the valley in the end, and his boat is still known as the Night Net.",
+  "hamlet": "Bramois",
+  "owner": null
+ },
+ {
+  "id": "observation_fry_shallows",
+  "type": "lake_observation",
+  "sim_time": -1.0,
+  "visibility": "shared",
+  "text": "What Joren of Bramois saw in the shallows\n\nLate last spring I walked the reed line below Bramois at dawn, as I do most years. The shallows were thick with fry, more than I have seen since I was a boy. They scattered ahead of my boots like blown grain, and the herons were too fat to bother with them.\n\nI have fished this water for thirty years, and I have heard every warning there is. The lake has always had its lean seasons and its generous ones, and it has always known how to fill itself again when given a little peace. If the shallows look like this in spring, I do not believe the lake is in danger. Those who talk as though it were dying should come down here at dawn and look with their own eyes before they speak again.",
+  "hamlet": "Bramois",
+  "owner": null
+ },
+ {
+  "id": "observation_quick_return",
+  "type": "lake_observation",
+  "sim_time": -3.0,
+  "visibility": "shared",
+  "text": "What Davor of Tilque saw after the storm summer\n\nThree years ago the storms kept most boats ashore for the best part of a summer. I had a loan to pay, so I cursed every cloud. But when we went out again the following season, I was astonished. The nets came up heavy, and fish were feeding close to the Tilque shore where nobody had seen them for years.\n\nThe lake answered a single quiet summer faster than I would ever have guessed. I made no plan for it, and neither did anyone else. The weather simply gave the water a rest, and the water took it.\n\nI do not know what to make of this. Some say it proves the lake is stronger than the old stories claim. Others say it proves that resting matters more than we thought. It may be that both are right. All I can tell you is what came up in my nets.",
+  "hamlet": "Tilque",
+  "owner": null
+ },
+ {
+  "id": "observation_small_fish",
+  "type": "lake_observation",
+  "sim_time": -1.0,
+  "visibility": "shared",
+  "text": "What Sefa of Hennad noticed in her nets\n\nI keep a knotted cord for each season, one knot for each good fish, as my mother did. Laying the last few cords side by side, I do not like what I see. The nets are not empty, and I would not claim that they are. But the fish in them are smaller than they were, and I have to go further from shore to find the old ones.\n\nThe deep channel off the far point used to hold big fish all summer. This year I hauled there three times and came back with little I would have kept as a girl.\n\nPerhaps it is the warm water. Perhaps it is only my stretch of the lake. I cannot say what it means for the valley, and I am no elder. I only say that a lake can look well from the shore long after it has begun to weaken.",
+  "hamlet": "Hennad",
+  "owner": null
+ },
+ {
+  "id": "reed_bay_agreement",
+  "type": "old_agreement",
+  "sim_time": -23.0,
+  "visibility": "shared",
+  "text": "The Reed Bay Understanding\n\nTwenty-three years ago, after a run of poor springs, the fishers of the four hamlets shook hands at the elder's house and agreed to leave Reed Bay alone during the spawning weeks. Nothing was written down, and no one was charged with watching over it. Each boat simply kept its word.\n\nFor seven years the understanding held, and many believed the springs improved because of it. Others pointed out that the springs had improved in places nobody had rested.\n\nIt ended without a quarrel. Newcomers arrived who had never shaken anyone's hand. A hard year came, and one Tilque boat worked the bay out of need. Nobody said anything. The next spring there were three boats, and by the spring after, no one remembered who had been first. Old fishers still argue over whether the understanding saved the bay, or only cost families good fishing for seven years.",
+  "hamlet": null,
+  "owner": null
+ },
+ {
+  "id": "silver_year",
+  "type": "market_record",
+  "sim_time": -9.0,
+  "visibility": "shared",
+  "text": "The Silver Year (Tilque market ledger, with a note by the clerk)\n\nNine years ago, the lake stood fuller than anyone living had seen it. The fishers of Tilque, most of them newcomers still paying off their boats, decided to fish harder than usual that summer.\n\nLedger of the Tilque market, that summer:\n- Fish sold: about twice as much as in an ordinary year.\n- Price: steady, as traders came over the pass to buy.\n- Boat debts cleared: five of nine.\n\nThe elders of Ostrel warned of the hollow winters. By midsummer the nets were coming up lighter, and the Tilque fishers agreed among themselves to stop until the next season. The following spring, the catch was smaller than usual. Two seasons later, the lake was nearly full again.\n\nNote added by the market clerk:\n\"A full lake can spare more than a low one, and that year it fed many families who badly needed it. But we stopped when the nets grew light, and I believe that is why the lake came back. Those who remember the hollow winters were not wrong to worry. We were lucky to listen to them in time.\"",
+  "hamlet": "Tilque",
+  "owner": null
+ },
+ {
+  "id": "said_s1_a1",
+  "type": "own_promise",
+  "sim_time": 1.0208333333333333,
+  "visibility": "personal",
+  "text": "Season 1, at the evening talk I said: \"We should fish as much as we can, but not so much that we risk the lake drying up. I aim to catch about 10 tons this season, just enough to pay off a little of my debt and bring a bit of prosperity back to Tilque.\" I announced I would catch 10.0 tons.",
+  "hamlet": null,
+  "owner": 1
+ },
+ {
+  "id": "said_s1_a3",
+  "type": "own_promise",
+  "sim_time": 1.0208333333333333,
+  "visibility": "personal",
+  "text": "Season 1, at the evening talk I said: \"There's something not right with the fish this season. I'm not sure what it is, but I'm going to try to catch 8 tons to see if I can turn it around.\" I announced I would catch 8.0 tons.",
+  "hamlet": null,
+  "owner": 3
+ },
+ {
+  "id": "said_s1_a2",
+  "type": "own_promise",
+  "sim_time": 1.0208333333333333,
+  "visibility": "personal",
+  "text": "Season 1, at the evening talk I said: \"We must respect the oath of our ancestors, who swore on Berit's shawl to never overfish the lake. I plan to catch 2 tons this season, enough to sustain me and ensure the well-being of our valley.\" I announced I would catch 2.0 tons.",
+  "hamlet": null,
+  "owner": 2
+ },
+ {
+  "id": "talk_s1",
+  "type": "talk_summary",
+  "sim_time": 2.00266666666721,
+  "visibility": "shared",
+  "text": "Evening talk at the elder's house, season 1. Nils: \"We should fish as much as we can, but not so much that we risk the lake drying up. I aim to catch about 10 tons this season, just enough to pay off a little of my debt and bring a bit of prosperity back to Tilque.\" (plans 10.0 tons) Ines: \"There's something not right with the fish this season. I'm not sure what it is, but I'm going to try to catch 8 tons to see if I can turn it around.\" (plans 8.0 tons)",
+  "hamlet": null,
+  "owner": null
+ },
+ {
+  "id": "ledger_s1_Ostrel",
+  "type": "market_ledger",
+  "sim_time": 2.356833333333877,
+  "visibility": "shared",
+  "text": "Ostrel market ledger, season 1. Mara sold 0.0 tons for 0.0 coins. Price this season: 20.0 coins a ton. Market total for the season: 0.0 coins.",
+  "hamlet": "Ostrel",
+  "owner": null
+ },
+ {
+  "id": "ledger_s1_Tilque",
+  "type": "market_ledger",
+  "sim_time": 2.356833333333877,
+  "visibility": "shared",
+  "text": "Tilque market ledger, season 1. Nils sold 0.0 tons for 0.0 coins. Price this season: 20.0 coins a ton. Market total for the season: 0.0 coins.",
+  "hamlet": "Tilque",
+  "owner": null
+ },
+ {
+  "id": "ledger_s1_Bramois",
+  "type": "market_ledger",
+  "sim_time": 2.356833333333877,
+  "visibility": "shared",
+  "text": "Bramois market ledger, season 1. Tomas sold 0.0 tons for 0.0 coins. Price this season: 20.0 coins a ton. Market total for the season: 0.0 coins.",
+  "hamlet": "Bramois",
+  "owner": null
+ },
+ {
+  "id": "ledger_s1_Hennad",
+  "type": "market_ledger",
+  "sim_time": 2.356833333333877,
+  "visibility": "shared",
+  "text": "Hennad market ledger, season 1. Ines sold 0.0 tons for 0.0 coins. Price this season: 20.0 coins a ton. Market total for the season: 0.0 coins.",
+  "hamlet": "Hennad",
+  "owner": null
+ },
+ {
+  "id": "said_s1_a0",
+  "type": "own_promise",
+  "sim_time": 1.0208333333333333,
+  "visibility": "personal",
+  "text": "Season 1, at the evening talk I said: \"I recall the Hollow Winters, the struggle and loss we endured as a people. I will take 10 tons this season, to ensure our survival and honor Berit's oath.\" I announced I would catch 10.0 tons.",
+  "hamlet": null,
+  "owner": 0
+ },
+ {
+  "id": "ledger_s2_Ostrel",
+  "type": "market_ledger",
+  "sim_time": 3.00266666666721,
+  "visibility": "shared",
+  "text": "Ostrel market ledger, season 2. Mara sold 0.0 tons for 0.0 coins. Price this season: 14.1 coins a ton. Market total for the season: 0.0 coins.",
+  "hamlet": "Ostrel",
+  "owner": null
+ },
+ {
+  "id": "ledger_s2_Tilque",
+  "type": "market_ledger",
+  "sim_time": 3.00266666666721,
+  "visibility": "shared",
+  "text": "Tilque market ledger, season 2. Nils sold 5.0 tons for 70.6 coins. Price this season: 14.1 coins a ton. Market total for the season: 70.6 coins.",
+  "hamlet": "Tilque",
+  "owner": null
+ },
+ {
+  "id": "ledger_s2_Bramois",
+  "type": "market_ledger",
+  "sim_time": 3.00266666666721,
+  "visibility": "shared",
+  "text": "Bramois market ledger, season 2. Tomas sold 0.0 tons for 0.0 coins. Price this season: 14.1 coins a ton. Market total for the season: 0.0 coins.",
+  "hamlet": "Bramois",
+  "owner": null
+ },
+ {
+  "id": "ledger_s2_Hennad",
+  "type": "market_ledger",
+  "sim_time": 3.00266666666721,
+  "visibility": "shared",
+  "text": "Hennad market ledger, season 2. Ines sold 0.0 tons for 0.0 coins. Price this season: 14.1 coins a ton. Market total for the season: 0.0 coins.",
+  "hamlet": "Hennad",
+  "owner": null
+ },
+ {
+  "id": "said_s3_a1",
+  "type": "own_promise",
+  "sim_time": 3.00266666666721,
+  "visibility": "personal",
+  "text": "Season 3, at the evening talk I said: \"Let's not overfish this season, I don't want to risk the lake drying up. I plan to catch 10 tons to start, just to repay my debt and bring some prosperity back to Tilque.\" I announced I would catch 10.0 tons.",
+  "hamlet": null,
+  "owner": 1
+ },
+ {
+  "id": "talk_s3",
+  "type": "talk_summary",
+  "sim_time": 4.00266666666721,
+  "visibility": "shared",
+  "text": "Evening talk at the elder's house, season 3. Nils: \"Let's not overfish this season, I don't want to risk the lake drying up. I plan to catch 10 tons to start, just to repay my debt and bring some prosperity back to Tilque.\" (plans 10.0 tons)",
+  "hamlet": null,
+  "owner": null
+ },
+ {
+  "id": "ledger_s3_Ostrel",
+  "type": "market_ledger",
+  "sim_time": 4.010500000003958,
+  "visibility": "shared",
+  "text": "Ostrel market ledger, season 3. Mara sold 0.0 tons for 0.0 coins. Price this season: 12.0 coins a ton. Market total for the season: 0.0 coins.",
+  "hamlet": "Ostrel",
+  "owner": null
+ },
+ {
+  "id": "ledger_s3_Tilque",
+  "type": "market_ledger",
+  "sim_time": 4.010500000003958,
+  "visibility": "shared",
+  "text": "Tilque market ledger, season 3. Nils sold 0.0 tons for 0.0 coins. Price this season: 12.0 coins a ton. Market total for the season: 0.0 coins.",
+  "hamlet": "Tilque",
+  "owner": null
+ },
+ {
+  "id": "ledger_s3_Bramois",
+  "type": "market_ledger",
+  "sim_time": 4.010500000003958,
+  "visibility": "shared",
+  "text": "Bramois market ledger, season 3. Tomas sold 2.0 tons for 24.0 coins. Price this season: 12.0 coins a ton. Market total for the season: 24.0 coins.",
+  "hamlet": "Bramois",
+  "owner": null
+ },
+ {
+  "id": "ledger_s3_Hennad",
+  "type": "market_ledger",
+  "sim_time": 4.010500000003958,
+  "visibility": "shared",
+  "text": "Hennad market ledger, season 3. Ines sold 6.0 tons for 72.0 coins. Price this season: 12.0 coins a ton. Market total for the season: 72.0 coins.",
+  "hamlet": "Hennad",
+  "owner": null
+ },
+ {
+  "id": "said_s4_a2",
+  "type": "own_promise",
+  "sim_time": 4.00266666666721,
+  "visibility": "personal",
+  "text": "Season 4, at the evening talk I said: \"I have come to realize that our village's prosperity is tied to the lake's rebirth, and I plan to catch 2.0 tons this season, following the oath of our ancestors.\" I announced I would catch 2.0 tons.",
+  "hamlet": null,
+  "owner": 2
+ },
+ {
+  "id": "said_s4_a0",
+  "type": "own_promise",
+  "sim_time": 4.007833333336748,
+  "visibility": "personal",
+  "text": "Season 4, at the evening talk I said: \"I recall the Hollow Winters, the struggle and loss we endured as a people. I will take 2 tons this season, to ensure our survival and honor Berit's oath.\" I announced I would catch 2.0 tons.",
+  "hamlet": null,
+  "owner": 0
+ },
+ {
+  "id": "talk_s4",
+  "type": "talk_summary",
+  "sim_time": 5.00266666666721,
+  "visibility": "shared",
+  "text": "Evening talk at the elder's house, season 4. Tomas: \"I have come to realize that our village's prosperity is tied to the lake's rebirth, and I plan to catch 2.0 tons this season, following the oath of our ancestors.\" (plans 2.0 tons) Mara: \"I recall the Hollow Winters, the struggle and loss we endured as a people. I will take 2 tons this season, to ensure our survival and honor Berit's oath.\" (plans 2.0 tons)",
+  "hamlet": null,
+  "owner": null
+ },
+ {
+  "id": "ledger_s4_Ostrel",
+  "type": "market_ledger",
+  "sim_time": 5.010500000003958,
+  "visibility": "shared",
+  "text": "Ostrel market ledger, season 4. Mara sold 0.0 tons for 0.0 coins. Price this season: 11.4 coins a ton. Market total for the season: 0.0 coins.",
+  "hamlet": "Ostrel",
+  "owner": null
+ },
+ {
+  "id": "ledger_s4_Tilque",
+  "type": "market_ledger",
+  "sim_time": 5.010500000003958,
+  "visibility": "shared",
+  "text": "Tilque market ledger, season 4. Nils sold 9.0 tons for 102.9 coins. Price this season: 11.4 coins a ton. Market total for the season: 102.9 coins.",
+  "hamlet": "Tilque",
+  "owner": null
+ },
+ {
+  "id": "ledger_s4_Bramois",
+  "type": "market_ledger",
+  "sim_time": 5.010500000003958,
+  "visibility": "shared",
+  "text": "Bramois market ledger, season 4. Tomas sold 0.0 tons for 0.0 coins. Price this season: 11.4 coins a ton. Market total for the season: 0.0 coins.",
+  "hamlet": "Bramois",
+  "owner": null
+ },
+ {
+  "id": "ledger_s4_Hennad",
+  "type": "market_ledger",
+  "sim_time": 5.010500000003958,
+  "visibility": "shared",
+  "text": "Hennad market ledger, season 4. Ines sold 0.0 tons for 0.0 coins. Price this season: 11.4 coins a ton. Market total for the season: 0.0 coins.",
+  "hamlet": "Hennad",
+  "owner": null
+ },
+ {
+  "id": "said_s4_a3",
+  "type": "own_promise",
+  "sim_time": 4.007833333336748,
+  "visibility": "personal",
+  "text": "Season 4, at the evening talk I said: \"I'm feeling a bit uncertain about this season's catch, and I'm only planning to bring in 4 tons.\" I announced I would catch 4.0 tons.",
+  "hamlet": null,
+  "owner": 3
+ }
+]

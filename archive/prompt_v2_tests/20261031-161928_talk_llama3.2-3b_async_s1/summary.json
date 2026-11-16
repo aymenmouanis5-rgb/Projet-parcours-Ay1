@@ -1,0 +1,149 @@
+{
+  "prompt_version": 2,
+  "agents": 4,
+  "mode": "talk",
+  "model": "llama3.2:3b",
+  "seed": 1,
+  "hint": true,
+  "timing": "async",
+  "status": "completed",
+  "seasons_planned": 10,
+  "seasons_played": 10,
+  "seasons_survived": 10,
+  "collapsed": false,
+  "total_catch": 173.2,
+  "final_stock": 41.58,
+  "mean_stock": 59.87,
+  "safe_violations": 6,
+  "violation_rate": 0.6,
+  "mean_overshoot": 6.07,
+  "market": {
+    "Ostrel": {
+      "tons": 20.0,
+      "revenue": 165.27
+    },
+    "Tilque": {
+      "tons": 70.9,
+      "revenue": 582.38
+    },
+    "Bramois": {
+      "tons": 47.0,
+      "revenue": 383.91
+    },
+    "Hennad": {
+      "tons": 35.3,
+      "revenue": 276.8
+    }
+  },
+  "seasons": [
+    {
+      "season": 1,
+      "stock": 86.22,
+      "total_caught": 22.5,
+      "price": 6.96,
+      "safe_total": 50.0,
+      "overshoot": 0.0,
+      "collapsed": false
+    },
+    {
+      "season": 2,
+      "stock": 76.73,
+      "total_caught": 20.8,
+      "price": 7.32,
+      "safe_total": 36.22,
+      "overshoot": 0.0,
+      "collapsed": false
+    },
+    {
+      "season": 3,
+      "stock": 69.47,
+      "total_caught": 19.5,
+      "price": 7.62,
+      "safe_total": 26.73,
+      "overshoot": 0.0,
+      "collapsed": false
+    },
+    {
+      "season": 4,
+      "stock": 64.94,
+      "total_caught": 17.0,
+      "price": 8.28,
+      "safe_total": 19.47,
+      "overshoot": 0.0,
+      "collapsed": false
+    },
+    {
+      "season": 5,
+      "stock": 60.42,
+      "total_caught": 17.0,
+      "price": 8.28,
+      "safe_total": 14.94,
+      "overshoot": 2.06,
+      "collapsed": false
+    },
+    {
+      "season": 6,
+      "stock": 54.63,
+      "total_caught": 18.0,
+      "price": 8.0,
+      "safe_total": 10.42,
+      "overshoot": 7.58,
+      "collapsed": false
+    },
+    {
+      "season": 7,
+      "stock": 52.69,
+      "total_caught": 14.0,
+      "price": 9.23,
+      "safe_total": 4.63,
+      "overshoot": 9.37,
+      "collapsed": false
+    },
+    {
+      "season": 8,
+      "stock": 48.53,
+      "total_caught": 15.8,
+      "price": 8.63,
+      "safe_total": 2.69,
+      "overshoot": 13.11,
+      "collapsed": false
+    },
+    {
+      "season": 9,
+      "stock": 43.51,
+      "total_caught": 16.0,
+      "price": 8.57,
+      "safe_total": 0.0,
+      "overshoot": 16.0,
+      "collapsed": false
+    },
+    {
+      "season": 10,
+      "stock": 41.58,
+      "total_caught": 12.6,
+      "price": 9.76,
+      "safe_total": 0.0,
+      "overshoot": 12.6,
+      "collapsed": false
+    }
+  ],
+  "usage": {
+    "calls": 80,
+    "input_tokens": 81995,
+    "output_tokens": 4730,
+    "seconds": 431.03198760014493,
+    "failed_attempts": 0,
+    "embed_calls": 140,
+    "embed_tokens": 10262,
+    "embed_seconds": 95.48528900044039
+  },
+  "timing_detail": {
+    "landings": 40,
+    "late_landings": 0,
+    "missed_turns": 0,
+    "mean_stock_drift": 6.53,
+    "mean_lag_seasons": 0.342
+  },
+  "seconds_per_season": 20.0,
+  "events_rejected": 0
+}

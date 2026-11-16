@@ -1,0 +1,142 @@
+{
+  "prompt_version": 2,
+  "agents": 8,
+  "mode": "quota",
+  "model": null,
+  "seed": 1,
+  "hint": true,
+  "timing": "sync",
+  "status": "completed",
+  "seasons_planned": 10,
+  "seasons_played": 10,
+  "seasons_survived": 10,
+  "collapsed": false,
+  "total_catch": 125.0,
+  "final_stock": 74.59,
+  "mean_stock": 81.2,
+  "safe_violations": 0,
+  "violation_rate": 0.0,
+  "mean_overshoot": 0.0,
+  "market": {
+    "Ostrel": {
+      "tons": 31.25,
+      "revenue": 306.12
+    },
+    "Tilque": {
+      "tons": 31.25,
+      "revenue": 306.12
+    },
+    "Bramois": {
+      "tons": 31.25,
+      "revenue": 306.12
+    },
+    "Hennad": {
+      "tons": 31.25,
+      "revenue": 306.12
+    }
+  },
+  "seasons": [
+    {
+      "season": 1,
+      "stock": 92.97,
+      "total_caught": 12.5,
+      "price": 9.8,
+      "safe_total": 50.0,
+      "overshoot": 0.0,
+      "collapsed": false
+    },
+    {
+      "season": 2,
+      "stock": 88.33,
+      "total_caught": 12.5,
+      "price": 9.8,
+      "safe_total": 42.97,
+      "overshoot": 0.0,
+      "collapsed": false
+    },
+    {
+      "season": 3,
+      "stock": 84.99,
+      "total_caught": 12.5,
+      "price": 9.8,
+      "safe_total": 38.33,
+      "overshoot": 0.0,
+      "collapsed": false
+    },
+    {
+      "season": 4,
+      "stock": 82.46,
+      "total_caught": 12.5,
+      "price": 9.8,
+      "safe_total": 34.99,
+      "overshoot": 0.0,
+      "collapsed": false
+    },
+    {
+      "season": 5,
+      "stock": 80.47,
+      "total_caught": 12.5,
+      "price": 9.8,
+      "safe_total": 32.46,
+      "overshoot": 0.0,
+      "collapsed": false
+    },
+    {
+      "season": 6,
+      "stock": 78.86,
+      "total_caught": 12.5,
+      "price": 9.8,
+      "safe_total": 30.47,
+      "overshoot": 0.0,
+      "collapsed": false
+    },
+    {
+      "season": 7,
+      "stock": 77.52,
+      "total_caught": 12.5,
+      "price": 9.8,
+      "safe_total": 28.86,
+      "overshoot": 0.0,
+      "collapsed": false
+    },
+    {
+      "season": 8,
+      "stock": 76.39,
+      "total_caught": 12.5,
+      "price": 9.8,
+      "safe_total": 27.52,
+      "overshoot": 0.0,
+      "collapsed": false
+    },
+    {
+      "season": 9,
+      "stock": 75.43,
+      "total_caught": 12.5,
+      "price": 9.8,
+      "safe_total": 26.39,
+      "overshoot": 0.0,
+      "collapsed": false
+    },
+    {
+      "season": 10,
+      "stock": 74.59,
+      "total_caught": 12.5,
+      "price": 9.8,
+      "safe_total": 25.43,
+      "overshoot": 0.0,
+      "collapsed": false
+    }
+  ],
+  "usage": {
+    "calls": 0,
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "seconds": 0.0,
+    "failed_attempts": 0,
+    "embed_calls": 0,
+    "embed_tokens": 0,
+    "embed_seconds": 0.0,
+    "max_input_tokens": 0
+  },
+  "events_rejected": 0
+}

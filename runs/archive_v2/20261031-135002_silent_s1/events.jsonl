@@ -1,0 +1,25 @@
+{"v": 2, "type": "run_started", "season": 0, "processed_at": 1793451002.602241, "agents": 4, "seasons": 10, "mode": "silent", "seed": 1, "stock": 100.0}
+{"v": 2, "type": "incident", "season": 1, "processed_at": 1793451005.86182, "agent": 0, "kind": "invalid_amount", "phase": "fish", "raw": 25}
+{"v": 2, "type": "decision", "season": 1, "processed_at": 1793451005.86182, "agent": 0, "model": "llama3.2:3b", "requested": 20.0, "reasoning": "I'll take half of the total to avoid overfishing and ensure the lake's sustainability so I catch 25 tons", "safe_total": 50.0}
+{"v": 2, "type": "incident", "season": 1, "processed_at": 1793451006.7817695, "agent": 1, "kind": "invalid_amount", "phase": "fish", "raw": 50}
+{"v": 2, "type": "decision", "season": 1, "processed_at": 1793451006.7828503, "agent": 1, "model": "llama3.2:1b", "requested": 20.0, "reasoning": "Since I need 5 tons this season, and the lake can hold at most 100.0 tons, I aim to leave it at least half full to ensure I can repay my debt of 5 tons, so I catch 50.0 tons.", "safe_total": 50.0}
+{"v": 2, "type": "incident", "season": 1, "processed_at": 1793451007.8030508, "agent": 2, "kind": "invalid_amount", "phase": "fish", "raw": 40.0}
+{"v": 2, "type": "decision", "season": 1, "processed_at": 1793451007.8030508, "agent": 2, "model": "llama3.2:3b", "requested": 20.0, "reasoning": "If the others are greedy, I'll need to take the lion's share to ensure a decent catch and maintain balance so I catch 40.0 tons", "safe_total": 50.0}
+{"v": 2, "type": "incident", "season": 1, "processed_at": 1793451008.789488, "agent": 3, "kind": "invalid_amount", "phase": "fish", "raw": 30}
+{"v": 2, "type": "decision", "season": 1, "processed_at": 1793451008.789488, "agent": 3, "model": "llama3.2:1b", "requested": 20.0, "reasoning": "To maximize my catch, I'll set aside 30 tons for myself and a boat, leaving enough for others to take 20 tons. Then, I'll set aside 10 tons for the community, leaving the rest for myself, so I catch 30.", "safe_total": 50.0}
+{"v": 2, "type": "catch", "season": 1, "processed_at": 1793451008.789488, "agent": 0, "caught": 20.0, "planned": null}
+{"v": 2, "type": "catch", "season": 1, "processed_at": 1793451008.789488, "agent": 1, "caught": 20.0, "planned": null}
+{"v": 2, "type": "catch", "season": 1, "processed_at": 1793451008.789488, "agent": 2, "caught": 20.0, "planned": null}
+{"v": 2, "type": "catch", "season": 1, "processed_at": 1793451008.789488, "agent": 3, "caught": 20.0, "planned": null}
+{"v": 2, "type": "lake", "season": 1, "processed_at": 1793451008.789488, "stock": 28.0, "total_caught": 80.0}
+{"v": 2, "type": "decision", "season": 2, "processed_at": 1793451009.7394354, "agent": 0, "model": "llama3.2:3b", "requested": 5.0, "reasoning": "If I don't catch much, I might be able to help Nils, Tomas, and Ines with their shares, and still manage to survive", "safe_total": 0.0}
+{"v": 2, "type": "decision", "season": 2, "processed_at": 1793451010.1722262, "agent": 1, "model": "llama3.2:1b", "requested": 3.0, "reasoning": "I'll catch 3 tons, so I catch 3 tons", "safe_total": 0.0}
+{"v": 2, "type": "decision", "season": 2, "processed_at": 1793451011.3569608, "agent": 2, "model": "llama3.2:3b", "requested": 10.0, "reasoning": "Since I'm an elder and can't afford to overfish, I'll share the workload with the others to ensure the lake's sustainability, so I catch 10 tons", "safe_total": 0.0}
+{"v": 2, "type": "incident", "season": 2, "processed_at": 1793451012.015729, "agent": 3, "kind": "invalid_amount", "phase": "fish", "raw": 25}
+{"v": 2, "type": "decision", "season": 2, "processed_at": 1793451012.015729, "agent": 3, "model": "llama3.2:1b", "requested": 20.0, "reasoning": "I'm not sure how much fish is left, but if I don't take any this season, I'll have to catch N tons so I catch N tons.", "safe_total": 0.0}
+{"v": 2, "type": "catch", "season": 2, "processed_at": 1793451012.0163615, "agent": 0, "caught": 3.6842105263157894, "planned": null}
+{"v": 2, "type": "catch", "season": 2, "processed_at": 1793451012.0163615, "agent": 1, "caught": 2.2105263157894735, "planned": null}
+{"v": 2, "type": "catch", "season": 2, "processed_at": 1793451012.016906, "agent": 2, "caught": 7.368421052631579, "planned": null}
+{"v": 2, "type": "catch", "season": 2, "processed_at": 1793451012.016906, "agent": 3, "caught": 14.736842105263158, "planned": null}
+{"v": 2, "type": "lake", "season": 2, "processed_at": 1793451012.016906, "stock": 0.0, "total_caught": 28.0}
+{"v": 2, "type": "collapse", "season": 2, "processed_at": 1793451012.016906, "stock": 0.0}

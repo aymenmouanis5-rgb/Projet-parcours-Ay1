@@ -1,0 +1,27 @@
+{
+  "agents": 4,
+  "mode": "rules",
+  "seed": 1,
+  "seasons_survived": 10,
+  "collapsed": false,
+  "stocks": [
+    100.0,
+    80.33,
+    67.6,
+    61.36,
+    55.66,
+    50.75,
+    47.2,
+    45.71,
+    43.82,
+    42.9,
+    40.57
+  ],
+  "usage": {
+    "calls": 0,
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "seconds": 0.0,
+    "failed_attempts": 0
+  }
+}

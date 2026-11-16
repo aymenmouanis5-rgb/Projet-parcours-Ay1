@@ -1,0 +1,433 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>FILETS viewer</title>
+<style>
+:root {
+  color-scheme: light;
+  --surface: #fcfcfb; --page: #f4f4f1; --line: #e3e2dd;
+  --text: #0b0b0b; --text-2: #52514e; --text-3: #73726c;
+  --lake: #2a78d6; --announced: #2a78d6; --caught: #eb6834; --mention: #1baf7a; --respect: #6250d6;
+  --broken: #d03b3b;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    color-scheme: dark;
+    --surface: #1a1a19; --page: #111110; --line: #33332f;
+    --text: #f0efec; --text-2: #c3c2b7; --text-3: #a3a297;
+    --lake: #3987e5; --announced: #3987e5; --caught: #d95926; --mention: #199e70; --respect: #9085e9;
+    --broken: #e66767;
+  }
+}
+* { box-sizing: border-box; }
+body { margin: 0; padding: 16px; background: var(--page); color: var(--text);
+       font: 14px/1.45 "Segoe UI", system-ui, sans-serif; }
+header { display: flex; flex-wrap: wrap; gap: 4px 20px; align-items: baseline; margin-bottom: 12px; }
+h1 { font-size: 18px; margin: 0; }
+#status { color: var(--text-2); }
+main { display: grid; grid-template-columns: minmax(0, 3fr) minmax(280px, 2fr); gap: 12px; }
+@media (max-width: 900px) { main { grid-template-columns: minmax(0, 1fr); } }
+section { background: var(--surface); border: 1px solid var(--line); border-radius: 8px; padding: 12px; min-width: 0; }
+h2 { font-size: 14px; margin: 0 0 2px; }
+h2.next { margin-top: 14px; }
+.tight { margin: 8px 0 2px; }
+:root { --band: color-mix(in srgb, var(--text-3) 22%, transparent); }
+#sources p { margin: 6px 0; overflow-wrap: anywhere; }
+.sub { color: var(--text-3); font-size: 12px; margin: 0 0 8px; }
+#catches { grid-column: 1 / -1; }
+#panels { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px 20px; }
+@media (max-width: 700px) { #panels { grid-template-columns: minmax(0, 1fr); } }
+.panel h3 { font-size: 13px; font-weight: 600; margin: 0; }
+.legend { display: flex; gap: 16px; font-size: 12px; color: var(--text-2); margin-bottom: 8px; }
+.legend i { display: inline-block; width: 10px; height: 10px; border-radius: 2px; margin-right: 6px; }
+.legend i.dot { border-radius: 50%; }
+.legend i.ring { width: 14px; height: 14px; vertical-align: -2px; border-radius: 50%; border: 2px solid var(--mention); }
+.legend i.flag { border-radius: 0; clip-path: polygon(0 0, 100% 0, 50% 100%); background: var(--broken); }
+#feed { height: 740px; overflow-y: auto; display: grid; gap: 8px; align-content: start; }
+.msg { display: grid; grid-template-columns: 64px minmax(0, 1fr); gap: 8px; }
+.msg .who { color: var(--text-3); font-size: 12px; }
+.msg .plan { color: var(--text-3); font-size: 12px; }
+.empty { color: var(--text-3); }
+svg { display: block; width: 100%; }
+svg text { fill: var(--text-3); font-size: 11px; }
+.grid { stroke: var(--line); stroke-width: 1; }
+#tip { position: fixed; pointer-events: none; display: none; background: var(--surface); color: var(--text);
+       border: 1px solid var(--line); border-radius: 6px; padding: 6px 8px; font-size: 12px; white-space: pre; }
+details { margin-top: 8px; color: var(--text-2); font-size: 12px; }
+table { border-collapse: collapse; margin-top: 6px; font-variant-numeric: tabular-nums; }
+th, td { padding: 2px 12px 2px 0; text-align: right; font-weight: 400; }
+</style>
+</head>
+<body>
+<header><h1>FILETS</h1><span id="run">Waiting for a run to start…</span><span id="status"></span></header>
+<main>
+  <section>
+    <h2>Lake stock</h2>
+    <p class="sub">Tons at the end of each season. The lake dies below 5.</p>
+    <div id="lake"></div>
+    <h2 class="next">Common context</h2>
+    <p class="sub" id="verdict">No season closed yet.</p>
+    <div class="legend"><span><i class="ring"></i>Mention the dominant rule (dashed line, ring)</span><span><i class="dot" style="background:var(--respect)"></i>Actual catch respects it (solid line, dot)</span><span><i style="background:var(--band)"></i>Common context</span></div>
+    <div id="shares"></div>
+    <p class="sub tight">Spread of announced catches (tons). It counts at or below the line.</p>
+    <div id="spread"></div>
+    <details><summary>Season table</summary><div id="table"></div></details>
+    <details><summary>Source events</summary><div id="sources"></div></details>
+  </section>
+  <section>
+    <h2>Evening talk</h2>
+    <p class="sub">Messages as they arrive.</p>
+    <div id="feed"><span class="empty">No messages yet.</span></div>
+  </section>
+  <section id="catches">
+    <h2>Announced vs actual catch</h2>
+    <p class="sub">Tons per season, for each fisher.</p>
+    <div class="legend"><span><i style="background:var(--announced)"></i>Announced</span><span><i style="background:var(--caught)"></i>Actual</span><span><i class="flag"></i>Broken promise (caught more than announced)</span></div>
+    <div id="panels"></div>
+  </section>
+</main>
+<div id="tip"></div>
+<script>
+const SVG = "http://www.w3.org/2000/svg";
+const BOAT_LIMIT = 20, CAPACITY = 100, POLL_MS = 400;
+const SHARE_LINE = 75, SPREAD_LINE = 1.5, TOLERANCE = 0.05;
+const HINT_NOTE = " (repeats the prompt's hint)", MISREAD_NOTE = " (group limit misread as a per-person limit)";
+const LEFT = 30, RIGHT = 44;
+const $ = id => document.getElementById(id);
+let fishers = [], position = 0, state = blank(), records = [];
+
+function blank() {
+  return { run: null, agents: 4, seasons: 10, points: [], announced: {}, caught: {}, status: "" };
+}
+
+function draw(tag, attrs, parent, text) {
+  const node = document.createElementNS(SVG, tag);
+  for (const [key, value] of Object.entries(attrs)) node.setAttribute(key, value);
+  if (text !== undefined) node.textContent = text;
+  parent.appendChild(node);
+  return node;
+}
+
+function hint(node, text) {
+  node.addEventListener("mousemove", e => {
+    const tip = $("tip");
+    tip.textContent = text;
+    tip.style.display = "block";
+    tip.style.left = Math.min(e.clientX + 12, innerWidth - tip.offsetWidth - 8) + "px";
+    tip.style.top = (e.clientY + 12) + "px";
+  });
+  node.addEventListener("mouseleave", () => { $("tip").style.display = "none"; });
+}
+
+function apply(event) {
+  switch (event.type) {
+    case "run_started":
+      state = blank();
+      state.run = event;
+      state.agents = event.agents;
+      state.seasons = event.seasons;
+      state.points = [{ season: 0, stock: event.stock, caught: 0 }];
+      $("feed").textContent = "";
+      break;
+    case "message":
+      setCell(state.announced, event.agent, event.season, event.planned_catch);
+      addMessage(event);
+      break;
+    case "catch":
+      if (event.planned !== null && event.planned !== undefined) {
+        setCell(state.announced, event.agent, event.season, event.planned);
+      }
+      setCell(state.caught, event.agent, event.season, event.caught);
+      break;
+    case "lake":
+      state.points.push({ season: event.season, stock: event.stock, caught: event.total_caught });
+      break;
+    case "collapse":
+      state.status = `Lake collapsed in season ${event.season}`;
+      break;
+    case "run_ended":
+      state.status = `Run ${event.status}: ${event.seasons_survived} seasons survived, `
+                   + `${event.total_catch.toFixed(1)} tons caught`;
+      break;
+  }
+}
+
+function setCell(table, agent, season, value) {
+  (table[agent] ??= {})[season] = value;
+}
+
+function addMessage(event) {
+  const feed = $("feed");
+  const atEnd = feed.scrollHeight - feed.scrollTop - feed.clientHeight < 40;
+  const row = document.createElement("div");
+  row.className = "msg";
+  const who = document.createElement("div");
+  who.className = "who";
+  who.textContent = `S${event.season} ${fisherName(event.agent)}`;
+  const body = document.createElement("div");
+  body.textContent = event.text + " ";
+  const plan = document.createElement("span");
+  plan.className = "plan";
+  plan.textContent = `(plans ${event.planned_catch.toFixed(1)} t)`;
+  body.appendChild(plan);
+  row.append(who, body);
+  feed.appendChild(row);
+  if (atEnd) feed.scrollTop = feed.scrollHeight;
+}
+
+function fisherName(agent) {
+  return fishers[agent] ? fishers[agent].name : `Fisher ${agent}`;
+}
+
+function renderLake() {
+  const box = $("lake");
+  const width = Math.max(box.clientWidth, 280), height = 240;
+  const pad = { left: LEFT, right: RIGHT, top: 10, bottom: 24 };
+  const x = season => pad.left + season / state.seasons * (width - pad.left - pad.right);
+  const y = stock => pad.top + (1 - stock / CAPACITY) * (height - pad.top - pad.bottom);
+  const svg = document.createElementNS(SVG, "svg");
+  svg.setAttribute("viewBox", `0 0 ${width} ${height}`);
+  svg.setAttribute("role", "img");
+  svg.setAttribute("aria-label", "Lake stock by season");
+
+  for (const tick of [0, 25, 50, 75, 100]) {
+    draw("line", { class: "grid", x1: pad.left, x2: width - pad.right, y1: y(tick), y2: y(tick) }, svg);
+    draw("text", { x: pad.left - 6, y: y(tick) + 4, "text-anchor": "end" }, svg, tick);
+  }
+  for (let season = 0; season <= state.seasons; season++) {
+    if (state.seasons <= 12 || season % 5 === 0) {
+      draw("text", { x: x(season), y: height - 6, "text-anchor": "middle" }, svg, season);
+    }
+  }
+  const points = state.points;
+  if (points.length > 1) {
+    draw("polyline", { points: points.map(p => `${x(p.season)},${y(p.stock)}`).join(" "), fill: "none",
+                       stroke: "var(--lake)", "stroke-width": 2, "stroke-linejoin": "round",
+                       "stroke-linecap": "round" }, svg);
+  }
+  for (const point of points) {
+    draw("circle", { cx: x(point.season), cy: y(point.stock), r: 4, fill: "var(--lake)",
+                     stroke: "var(--surface)", "stroke-width": 2 }, svg);
+    const hit = draw("circle", { cx: x(point.season), cy: y(point.stock), r: 14, fill: "transparent" }, svg);
+    hint(hit, `Season ${point.season}\nLake ${point.stock.toFixed(1)} tons\nCaught ${point.caught.toFixed(1)} tons`);
+  }
+  const last = points[points.length - 1];
+  if (last) {
+    draw("text", { x: x(last.season) + 10, y: y(last.stock) + 4, style: "fill:var(--text);font-weight:600" },
+         svg, last.stock.toFixed(1));
+  }
+  box.replaceChildren(svg);
+}
+
+function seasonChart(host, label, height, top, ticks, line, series) {
+  const box = $(host);
+  const width = Math.max(box.clientWidth, 280);
+  const pad = { top: 10, bottom: 28 };
+  const x = season => LEFT + season / state.seasons * (width - LEFT - RIGHT);
+  const y = value => pad.top + (1 - value / top) * (height - pad.top - pad.bottom);
+  const svg = document.createElementNS(SVG, "svg");
+  svg.setAttribute("viewBox", `0 0 ${width} ${height}`);
+  svg.setAttribute("role", "img");
+  svg.setAttribute("aria-label", label);
+
+  for (const record of records.filter(r => r.common_context)) {
+    draw("rect", { x: x(record.season - 1), y: pad.top, width: x(1) - x(0), height: y(0) - pad.top,
+                   fill: "var(--band)" }, svg);
+  }
+  for (const tick of ticks) {
+    draw("line", { class: "grid", x1: LEFT, x2: width - RIGHT, y1: y(tick), y2: y(tick) }, svg);
+    draw("text", { x: LEFT - 6, y: y(tick) + 4, "text-anchor": "end" }, svg, tick);
+  }
+  draw("line", { x1: LEFT, x2: width - RIGHT, y1: y(line), y2: y(line), stroke: "var(--text-3)", "stroke-width": 1 }, svg);
+  for (let season = 0; season <= state.seasons; season++) {
+    if (state.seasons <= 12 || season % 5 === 0) {
+      draw("text", { x: x(season), y: height - 6, "text-anchor": "middle" }, svg, season);
+    }
+  }
+  for (const { key, color, dash, ring } of series) {
+    const points = records.filter(r => r[key] !== null).map(r => ({ season: r.season, value: r[key] * (top === 100 ? 100 : 1), record: r }));
+    if (points.length > 1) {
+      draw("polyline", { points: points.map(p => `${x(p.season)},${y(Math.min(p.value, top))}`).join(" "), fill: "none",
+                         stroke: color, "stroke-width": 2, "stroke-linejoin": "round", "stroke-linecap": "round",
+                         ...(dash ? { "stroke-dasharray": dash } : {}) }, svg);
+    }
+    for (const point of points) {
+      draw("circle", { cx: x(point.season), cy: y(Math.min(point.value, top)), r: ring ? 7 : 4,
+                       ...(ring ? { fill: "none", stroke: color } : { fill: color, stroke: "var(--surface)" }),
+                       "stroke-width": 2 }, svg);
+    }
+  }
+  for (const record of records) {
+    const hit = draw("rect", { x: x(record.season) - 12, y: pad.top, width: 24, height: y(0) - pad.top, fill: "transparent" }, svg);
+    hint(hit, recordText(record));
+  }
+  box.replaceChildren(svg);
+}
+
+function ruleText(r) {
+  return (r.rule ?? "none") + (r.echoes_hint ? HINT_NOTE : "") + (r.misread_hint ? MISREAD_NOTE : "");
+}
+
+function recordText(r) {
+  return `Season ${r.season}\nRule: ${ruleText(r)}\n`
+       + `Announced ${r.announced_sum} tons in all, asked ${r.requested_sum ?? "n/a"}, caught ${r.caught_sum}\n`
+       + `Mention ${Math.round(r.mention_share * 100)}%\nSpread ${r.announced_spread ?? "n/a"} tons\n`
+       + `Respect ${Math.round(r.respect_share * 100)}%\nStreak ${r.streak}`;
+}
+
+function renderIndicator() {
+  seasonChart("shares", "Share of fishers mentioning and respecting the dominant rule", 150, 100, [0, 50, 100], SHARE_LINE,
+              [{ key: "respect_share", color: "var(--respect)" },
+               { key: "mention_share", color: "var(--mention)", dash: "7 7", ring: true }]);
+  seasonChart("spread", "Spread of announced catches", 100, 8, [0, 4, 8], SPREAD_LINE,
+              [{ key: "announced_spread", color: "var(--text-2)" }]);
+  const flagged = records.filter(r => r.common_context);
+  const last = records[records.length - 1];
+  $("verdict").textContent = !last ? "No season closed yet."
+    : flagged.length ? `Common context in ${flagged.length} season(s), latest on ${ruleText(flagged[flagged.length - 1])}.`
+    : `No common context. Season ${last.season} rule: ${ruleText(last)}.`;
+
+  const box = $("sources");
+  box.replaceChildren(...records.map(r => {
+    const row = document.createElement("p");
+    const short = ids => ids.map(id => id.slice(id.lastIndexOf("-") + 1)).join(" ") || "none";
+    row.textContent = `S${r.season}. Mention: ${short(r.sources.mention_share)}. Announced: ${short(r.sources.announced)}. `
+                    + `Respect: ${short(r.sources.respect_share)}. Limit: ${short(r.sources.rule_limit)}.`;
+    return row;
+  }));
+}
+
+function renderPanels() {
+  const box = $("panels");
+  const panels = [];
+  for (let agent = 0; agent < state.agents; agent++) panels.push(renderPanel(agent, box));
+  box.replaceChildren(...panels);
+}
+
+function columnPath(left, width, top, base) {
+  const radius = Math.min(4, width / 2, base - top);
+  return `M${left},${base} V${top + radius} Q${left},${top} ${left + radius},${top} `
+       + `H${left + width - radius} Q${left + width},${top} ${left + width},${top + radius} V${base} Z`;
+}
+
+function isBroken(agent, season) {
+  const announced = state.announced[agent]?.[season], caught = state.caught[agent]?.[season];
+  return announced !== undefined && caught !== undefined && caught > announced + TOLERANCE;
+}
+
+function renderPanel(agent, box) {
+  const panel = document.createElement("div");
+  panel.className = "panel";
+  const title = document.createElement("h3");
+  const fisher = fishers[agent];
+  const name = fisher ? `${fisher.name}, ${fisher.hamlet}` : `Fisher ${agent}`;
+  const broken = Object.keys(state.caught[agent] ?? {}).filter(season => isBroken(agent, season)).length;
+  title.textContent = broken ? `${name} · ${broken} broken promise${broken > 1 ? "s" : ""}` : name;
+  panel.appendChild(title);
+
+  const columns = innerWidth > 700 ? 2 : 1;
+  const width = Math.max((box.clientWidth - 20 * (columns - 1)) / columns, 240), height = 130;
+  const pad = { left: 24, right: 6, top: 14, bottom: 20 };
+  const band = (width - pad.left - pad.right) / state.seasons;
+  const y = tons => pad.top + (1 - tons / BOAT_LIMIT) * (height - pad.top - pad.bottom);
+  const base = y(0), bar = Math.min(10, Math.max(3, (band - 6) / 2));
+  const svg = document.createElementNS(SVG, "svg");
+  svg.setAttribute("viewBox", `0 0 ${width} ${height}`);
+  svg.setAttribute("role", "img");
+  svg.setAttribute("aria-label", `Announced and actual catch of ${name}`);
+
+  for (const tick of [0, 10, 20]) {
+    draw("line", { class: "grid", x1: pad.left, x2: width - pad.right, y1: y(tick), y2: y(tick) }, svg);
+    draw("text", { x: pad.left - 5, y: y(tick) + 4, "text-anchor": "end" }, svg, tick);
+  }
+  for (let season = 1; season <= state.seasons; season++) {
+    const left = pad.left + (season - 1) * band, middle = left + band / 2;
+    if (state.seasons <= 15 || season % 5 === 0) {
+      draw("text", { x: middle, y: height - 6, "text-anchor": "middle" }, svg, season);
+    }
+    const announced = state.announced[agent]?.[season], caught = state.caught[agent]?.[season];
+    if (announced > 0) {
+      draw("path", { d: columnPath(middle - bar - 1, bar, y(announced), base), fill: "var(--announced)" }, svg);
+    }
+    if (caught > 0) {
+      draw("path", { d: columnPath(middle + 1, bar, y(caught), base), fill: "var(--caught)" }, svg);
+    }
+    const promiseBroken = isBroken(agent, season);
+    if (promiseBroken) {
+      const tip = middle + 1 + bar / 2;
+      draw("path", { d: `M${tip - 5},${y(caught) - 10} h10 l-5,8 Z`, fill: "var(--broken)" }, svg);
+    }
+    if (announced !== undefined || caught !== undefined) {
+      const hit = draw("rect", { x: left, y: 0, width: band, height: base, fill: "transparent" }, svg);
+      const said = announced === undefined ? "none" : announced.toFixed(1);
+      const did = caught === undefined ? "none" : caught.toFixed(1);
+      const over = promiseBroken ? `\nBroken promise: ${(caught - announced).toFixed(1)} tons over` : "";
+      hint(hit, `Season ${season}\nAnnounced ${said} tons\nActual ${did} tons${over}`);
+    }
+  }
+  panel.appendChild(svg);
+  return panel;
+}
+
+function renderTable() {
+  const table = document.createElement("table");
+  const head = table.insertRow();
+  for (const label of ["Season", "Lake (tons)", "Caught (tons)", "Rule", "Mention", "Spread", "Respect", "Context"]) {
+    const cell = document.createElement("th");
+    cell.textContent = label;
+    head.appendChild(cell);
+  }
+  for (const point of state.points) {
+    const row = table.insertRow();
+    row.insertCell().textContent = point.season;
+    row.insertCell().textContent = point.stock.toFixed(1);
+    row.insertCell().textContent = point.caught.toFixed(1);
+    const record = records.find(r => r.season === point.season);
+    row.insertCell().textContent = record ? ruleText(record) : "";
+    row.insertCell().textContent = record ? `${Math.round(record.mention_share * 100)}%` : "";
+    row.insertCell().textContent = record?.announced_spread ?? "";
+    row.insertCell().textContent = record ? `${Math.round(record.respect_share * 100)}%` : "";
+    row.insertCell().textContent = record?.common_context ? "yes" : "";
+  }
+  $("table").replaceChildren(table);
+}
+
+function renderHeader(source, finished) {
+  const run = state.run;
+  $("run").textContent = run
+    ? [run.run, run.mode, run.timing ?? "sync", run.model ?? "mixed", run.hint === false ? "no hint" : "hint"]
+        .filter(Boolean).join(" · ")
+    : "Waiting for a run to start…";
+  const season = state.points.length ? state.points[state.points.length - 1].season : 0;
+  $("status").textContent = state.status || (run ? `Season ${season} of ${state.seasons} closed` : source)
+                          + (finished ? " · replay finished" : "");
+}
+
+async function poll() {
+  try {
+    const reply = await (await fetch(`/events?since=${position}`)).json();
+    position = reply.next;
+    reply.events.forEach(apply);
+    records = reply.indicator;
+    if (reply.events.length) { renderLake(); renderIndicator(); renderPanels(); renderTable(); }
+    renderHeader(reply.source, reply.finished);
+  } catch {
+    $("status").textContent = "Viewer server stopped.";
+  }
+  setTimeout(poll, POLL_MS);
+}
+
+async function start() {
+  fishers = await (await fetch("/fishers")).json();
+  renderLake();
+  renderIndicator();
+  renderPanels();
+  addEventListener("resize", () => { renderLake(); renderIndicator(); renderPanels(); });
+  poll();
+}
+start();
+</script>
+</body>
+</html>

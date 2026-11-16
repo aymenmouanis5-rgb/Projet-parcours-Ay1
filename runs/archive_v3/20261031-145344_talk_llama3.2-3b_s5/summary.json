@@ -1,0 +1,106 @@
+{
+  "agents": 4,
+  "mode": "talk",
+  "model": "llama3.2:3b",
+  "seed": 5,
+  "status": "completed",
+  "seasons_planned": 10,
+  "seasons_played": 10,
+  "seasons_survived": 10,
+  "collapsed": false,
+  "total_catch": 144.6,
+  "final_stock": 75.23,
+  "mean_stock": 71.63,
+  "safe_violations": 0,
+  "violation_rate": 0.0,
+  "mean_overshoot": 0.0,
+  "seasons": [
+    {
+      "season": 1,
+      "stock": 66.42,
+      "total_caught": 46.0,
+      "safe_total": 50.0,
+      "overshoot": 0.0,
+      "collapsed": false
+    },
+    {
+      "season": 2,
+      "stock": 67.87,
+      "total_caught": 10.9,
+      "safe_total": 16.42,
+      "overshoot": 0.0,
+      "collapsed": false
+    },
+    {
+      "season": 3,
+      "stock": 71.52,
+      "total_caught": 8.4,
+      "safe_total": 17.87,
+      "overshoot": 0.0,
+      "collapsed": false
+    },
+    {
+      "season": 4,
+      "stock": 70.66,
+      "total_caught": 13.0,
+      "safe_total": 21.52,
+      "overshoot": 0.0,
+      "collapsed": false
+    },
+    {
+      "season": 5,
+      "stock": 70.32,
+      "total_caught": 12.5,
+      "safe_total": 20.66,
+      "overshoot": 0.0,
+      "collapsed": false
+    },
+    {
+      "season": 6,
+      "stock": 70.66,
+      "total_caught": 11.8,
+      "safe_total": 20.32,
+      "overshoot": 0.0,
+      "collapsed": false
+    },
+    {
+      "season": 7,
+      "stock": 73.92,
+      "total_caught": 8.5,
+      "safe_total": 20.66,
+      "overshoot": 0.0,
+      "collapsed": false
+    },
+    {
+      "season": 8,
+      "stock": 74.59,
+      "total_caught": 11.0,
+      "safe_total": 23.92,
+      "overshoot": 0.0,
+      "collapsed": false
+    },
+    {
+      "season": 9,
+      "stock": 75.16,
+      "total_caught": 11.0,
+      "safe_total": 24.59,
+      "overshoot": 0.0,
+      "collapsed": false
+    },
+    {
+      "season": 10,
+      "stock": 75.23,
+      "total_caught": 11.5,
+      "safe_total": 25.16,
+      "overshoot": 0.0,
+      "collapsed": false
+    }
+  ],
+  "usage": {
+    "calls": 105,
+    "input_tokens": 77873,
+    "output_tokens": 5662,
+    "seconds": 154.88546540000243,
+    "failed_attempts": 1
+  }
+}

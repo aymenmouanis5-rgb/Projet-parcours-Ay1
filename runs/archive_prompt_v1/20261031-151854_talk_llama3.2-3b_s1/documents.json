@@ -1,0 +1,911 @@
+[
+ {
+  "id": "famine",
+  "type": "shortage_story",
+  "sim_time": -41.0,
+  "visibility": "shared",
+  "text": "The Hollow Winters (as told in Ostrel)\n\nForty-one years ago, the lake of Vellmor was so full that the nets broke under the weight of the catch. That summer, the four hamlets fished as if it would never end. Tilque built two new boats. Bramois sold fish as far as the mountain pass. No one counted, because there seemed to be no reason to.\n\nBy autumn, the nets came up light. The elders said it was the cold. In spring they came up empty. The water was clear and still, and no fish moved beneath the boats.\n\nThen came the hollow winters: three of them, one after another. The lake did not come back. Families ate the seed grain, then the dogs, then the leather of their own boots. In Hennad, the children stopped crying, because they no longer had the strength. Old Berit of Ostrel walked out onto the ice one night so that her grandchildren would have her share. They found her shawl in spring, frozen into the shore.\n\nEleven families left the valley over the pass. Not all of them reached the other side.\n\nWhen the fish finally returned, it was slowly, a few at a time, over many years. The survivors of Ostrel swore an oath on Berit's shawl: never again take more than the lake can give back.\n\nThe shawl still hangs in the elder's house, where the fishermen meet each evening.",
+  "hamlet": "Ostrel",
+  "owner": null
+ },
+ {
+  "id": "market_bramois",
+  "type": "market_record",
+  "sim_time": -1.0,
+  "visibility": "shared",
+  "text": "Bramois market account, last season\n\nBramois sold steadily to the traders who cross the pass, and the salting sheds ran until the cold came. The fish were of fair size. Buyers complained of the price in the spring, when little was landed, and complained again in late summer that they had bought too dear.\n\nThe great dispute of the season was not about fish at all, but about whose nets had been drying on whose stretch of shore. It was settled at the elder's table with a shared meal and no hard feelings.\n\nTakings were close to those of the year before. Some sellers think the valley has found its ordinary rhythm and that the old fears belong to another age. Others keep their takings in a box under the floor and say that ordinary rhythms are what people remember just before they end.",
+  "hamlet": "Bramois",
+  "owner": null
+ },
+ {
+  "id": "market_hennad",
+  "type": "market_record",
+  "sim_time": -1.0,
+  "visibility": "shared",
+  "text": "Hennad market account, last season\n\nA thin season at the smallest market in the valley. The boats of Hennad work the far shore, and the catch there was uneven: some weeks plenty, some weeks hardly worth the walk to the stalls. Traders rarely come this far, so most of what was landed was carried to neighbours or dried for winter.\n\nTwo young fishers with loans on their boats sold everything they caught and kept nothing back. They ate from their parents' stores by autumn. Their lender has been patient so far, and has said so loudly enough for the whole quay to hear.\n\nStill, people in Hennad remark that no one has gone hungry in many years, and that the far shore has had poor seasons before and recovered from them. The clerk records this as hope rather than as an account.",
+  "hamlet": "Hennad",
+  "owner": null
+ },
+ {
+  "id": "market_ostrel",
+  "type": "market_record",
+  "sim_time": -1.0,
+  "visibility": "shared",
+  "text": "Ostrel market account, last season\n\nA quiet season at the Ostrel stalls. The old families brought in much what their parents would have brought in, no more, and most of it went to neighbours rather than to traders. Prices held through the summer and rose a little before the first frost, when the pass closed and the road traders stopped coming.\n\nTwo households asked for credit against next season's catch and received it. Nobody in Ostrel went short, but nobody put much aside either. The smokehouse roof still needs mending, and the money for it was not found.\n\nThe clerk notes that the younger fishers of Ostrel grumble about how little they sell compared with Tilque. Their elders answer that a thin purse is easier to carry through winter than an empty lake. The younger ones reply that thin purses have never mended a roof.",
+  "hamlet": "Ostrel",
+  "owner": null
+ },
+ {
+  "id": "market_tilque",
+  "type": "market_record",
+  "sim_time": -1.0,
+  "visibility": "shared",
+  "text": "Tilque market account, last season\n\nThe busiest stalls in the valley again. Boats from Tilque went out early and came home heavy, and traders paid good coin through the warm months. When too many boats landed in the same week the price sagged, and when the weather kept them ashore it jumped back. Those who sold late in the season did best.\n\nThree boat loans were paid down, though none was cleared. One family gave up its boat to its lender and now rents it back by the season. Others say they could finish paying within a few good years, if the good years last.\n\nThe clerk writes that debt does not wait for the lake. A fisher who owes money must land fish this season, whatever anyone says about the next one. Nobody on the quay disputes it, and nobody on the quay enjoys it.",
+  "hamlet": "Tilque",
+  "owner": null
+ },
+ {
+  "id": "night_nets",
+  "type": "reputation_story",
+  "sim_time": -15.0,
+  "visibility": "shared",
+  "text": "Halvard of the Night Nets\n\nHalvard of Bramois was a fine talker. At the elder's table he spoke more warmly of the lake than anyone, and he was known for his moderation. Only his boat was oddly low in the water some mornings.\n\nA boy checking eel traps saw the truth by chance: Halvard, rowing without a lantern, lifting nets long before dawn, week after week. The story was all over the valley within days.\n\nNobody struck him, and there was no one to fine him. It was simply that no one would crew with him any more. When his mooring rope snapped in a gale, no one came to help. The stallholders of Bramois served him last, and his daughter's marriage to a boy from Ostrel was quietly called off.\n\nPeople said afterwards that it was not the fish they could not forgive, but the speeches. He left the valley in the end, and his boat is still known as the Night Net.",
+  "hamlet": "Bramois",
+  "owner": null
+ },
+ {
+  "id": "observation_fry_shallows",
+  "type": "lake_observation",
+  "sim_time": -1.0,
+  "visibility": "shared",
+  "text": "What Joren of Bramois saw in the shallows\n\nLate last spring I walked the reed line below Bramois at dawn, as I do most years. The shallows were thick with fry, more than I have seen since I was a boy. They scattered ahead of my boots like blown grain, and the herons were too fat to bother with them.\n\nI have fished this water for thirty years, and I have heard every warning there is. The lake has always had its lean seasons and its generous ones, and it has always known how to fill itself again when given a little peace. If the shallows look like this in spring, I do not believe the lake is in danger. Those who talk as though it were dying should come down here at dawn and look with their own eyes before they speak again.",
+  "hamlet": "Bramois",
+  "owner": null
+ },
+ {
+  "id": "observation_quick_return",
+  "type": "lake_observation",
+  "sim_time": -3.0,
+  "visibility": "shared",
+  "text": "What Davor of Tilque saw after the storm summer\n\nThree years ago the storms kept most boats ashore for the best part of a summer. I had a loan to pay, so I cursed every cloud. But when we went out again the following season, I was astonished. The nets came up heavy, and fish were feeding close to the Tilque shore where nobody had seen them for years.\n\nThe lake answered a single quiet summer faster than I would ever have guessed. I made no plan for it, and neither did anyone else. The weather simply gave the water a rest, and the water took it.\n\nI do not know what to make of this. Some say it proves the lake is stronger than the old stories claim. Others say it proves that resting matters more than we thought. It may be that both are right. All I can tell you is what came up in my nets.",
+  "hamlet": "Tilque",
+  "owner": null
+ },
+ {
+  "id": "observation_small_fish",
+  "type": "lake_observation",
+  "sim_time": -1.0,
+  "visibility": "shared",
+  "text": "What Sefa of Hennad noticed in her nets\n\nI keep a knotted cord for each season, one knot for each good fish, as my mother did. Laying the last few cords side by side, I do not like what I see. The nets are not empty, and I would not claim that they are. But the fish in them are smaller than they were, and I have to go further from shore to find the old ones.\n\nThe deep channel off the far point used to hold big fish all summer. This year I hauled there three times and came back with little I would have kept as a girl.\n\nPerhaps it is the warm water. Perhaps it is only my stretch of the lake. I cannot say what it means for the valley, and I am no elder. I only say that a lake can look well from the shore long after it has begun to weaken.",
+  "hamlet": "Hennad",
+  "owner": null
+ },
+ {
+  "id": "reed_bay_agreement",
+  "type": "old_agreement",
+  "sim_time": -23.0,
+  "visibility": "shared",
+  "text": "The Reed Bay Understanding\n\nTwenty-three years ago, after a run of poor springs, the fishers of the four hamlets shook hands at the elder's house and agreed to leave Reed Bay alone during the spawning weeks. Nothing was written down, and no one was charged with watching over it. Each boat simply kept its word.\n\nFor seven years the understanding held, and many believed the springs improved because of it. Others pointed out that the springs had improved in places nobody had rested.\n\nIt ended without a quarrel. Newcomers arrived who had never shaken anyone's hand. A hard year came, and one Tilque boat worked the bay out of need. Nobody said anything. The next spring there were three boats, and by the spring after, no one remembered who had been first. Old fishers still argue over whether the understanding saved the bay, or only cost families good fishing for seven years.",
+  "hamlet": null,
+  "owner": null
+ },
+ {
+  "id": "silver_year",
+  "type": "market_record",
+  "sim_time": -9.0,
+  "visibility": "shared",
+  "text": "The Silver Year (Tilque market ledger, with a note by the clerk)\n\nNine years ago, the lake stood fuller than anyone living had seen it. The fishers of Tilque, most of them newcomers still paying off their boats, decided to fish harder than usual that summer.\n\nLedger of the Tilque market, that summer:\n- Fish sold: about twice as much as in an ordinary year.\n- Price: steady, as traders came over the pass to buy.\n- Boat debts cleared: five of nine.\n\nThe elders of Ostrel warned of the hollow winters. By midsummer the nets were coming up lighter, and the Tilque fishers agreed among themselves to stop until the next season. The following spring, the catch was smaller than usual. Two seasons later, the lake was nearly full again.\n\nNote added by the market clerk:\n\"A full lake can spare more than a low one, and that year it fed many families who badly needed it. But we stopped when the nets grew light, and I believe that is why the lake came back. Those who remember the hollow winters were not wrong to worry. We were lucky to listen to them in time.\"",
+  "hamlet": "Tilque",
+  "owner": null
+ },
+ {
+  "id": "said_s1_a1",
+  "type": "own_promise",
+  "sim_time": 1.25,
+  "visibility": "personal",
+  "text": "Season 1, at the evening talk I said: \"We must be more careful this season, or we'll end up like the Hollow Winters. I aim to catch no more than 5 tons to start, just to repay my debt and not risk the lake again.\" I announced I would catch 5.0 tons.",
+  "hamlet": null,
+  "owner": 1
+ },
+ {
+  "id": "said_s1_a2",
+  "type": "own_promise",
+  "sim_time": 1.25,
+  "visibility": "personal",
+  "text": "Season 1, at the evening talk I said: \"Yes, Nils, I agree, we must respect the lake's limits. I plan to catch no more than 12.5 tons this season, to ensure a sustainable harvest for all of us.\" I announced I would catch 12.5 tons.",
+  "hamlet": null,
+  "owner": 2
+ },
+ {
+  "id": "said_s1_a0",
+  "type": "own_promise",
+  "sim_time": 1.25,
+  "visibility": "personal",
+  "text": "Season 1, at the evening talk I said: \"I plan to catch no more than 2 tons this season, so we can live and not risk the lake again.\" I announced I would catch 2.0 tons.",
+  "hamlet": null,
+  "owner": 0
+ },
+ {
+  "id": "said_s1_a3",
+  "type": "own_promise",
+  "sim_time": 1.25,
+  "visibility": "personal",
+  "text": "Season 1, at the evening talk I said: \"I plan to catch no more than 5 tons this season, not just to pay off my loan, but to be responsible for the lake's well-being.\" I announced I would catch 5.0 tons.",
+  "hamlet": null,
+  "owner": 3
+ },
+ {
+  "id": "talk_s1",
+  "type": "talk_summary",
+  "sim_time": 1.25,
+  "visibility": "shared",
+  "text": "Evening talk at the elder's house, season 1. Nils: \"We must be more careful this season, or we'll end up like the Hollow Winters. I aim to catch no more than 5 tons to start, just to repay my debt and not risk the lake again.\" (plans 5.0 tons) Tomas: \"Yes, Nils, I agree, we must respect the lake's limits. I plan to catch no more than 12.5 tons this season, to ensure a sustainable harvest for all of us.\" (plans 12.5 tons) Mara: \"I plan to catch no more than 2 tons this season, so we can live and not risk the lake again.\" (plans 2.0 tons) Ines: \"I plan to catch no more than 5 tons this season, not just to pay off my loan, but to be responsible for the lake's well-being.\" (plans 5.0 tons)",
+  "hamlet": null,
+  "owner": null
+ },
+ {
+  "id": "ledger_s1_Ostrel",
+  "type": "market_ledger",
+  "sim_time": 1.75,
+  "visibility": "shared",
+  "text": "Ostrel market ledger, season 1. Mara sold 2.0 tons for 13.2 coins. Price this season: 6.6 coins a ton. Market total for the season: 13.2 coins.",
+  "hamlet": "Ostrel",
+  "owner": null
+ },
+ {
+  "id": "ledger_s1_Tilque",
+  "type": "market_ledger",
+  "sim_time": 1.75,
+  "visibility": "shared",
+  "text": "Tilque market ledger, season 1. Nils sold 5.0 tons for 32.9 coins. Price this season: 6.6 coins a ton. Market total for the season: 32.9 coins.",
+  "hamlet": "Tilque",
+  "owner": null
+ },
+ {
+  "id": "ledger_s1_Bramois",
+  "type": "market_ledger",
+  "sim_time": 1.75,
+  "visibility": "shared",
+  "text": "Bramois market ledger, season 1. Tomas sold 12.5 tons for 82.2 coins. Price this season: 6.6 coins a ton. Market total for the season: 82.2 coins.",
+  "hamlet": "Bramois",
+  "owner": null
+ },
+ {
+  "id": "ledger_s1_Hennad",
+  "type": "market_ledger",
+  "sim_time": 1.75,
+  "visibility": "shared",
+  "text": "Hennad market ledger, season 1. Ines sold 5.0 tons for 32.9 coins. Price this season: 6.6 coins a ton. Market total for the season: 32.9 coins.",
+  "hamlet": "Hennad",
+  "owner": null
+ },
+ {
+  "id": "said_s2_a0",
+  "type": "own_promise",
+  "sim_time": 2.25,
+  "visibility": "personal",
+  "text": "Season 2, at the evening talk I said: \"I think we've learned our lesson from the Hollow Winters, and I plan to catch no more than 2 tons this season, just to ensure we don't put the lake in danger again. I'd rather have a small harvest and live to fish another day.\" I announced I would catch 2.0 tons.",
+  "hamlet": null,
+  "owner": 0
+ },
+ {
+  "id": "said_s2_a1",
+  "type": "own_promise",
+  "sim_time": 2.25,
+  "visibility": "personal",
+  "text": "Season 2, at the evening talk I said: \"I've learned from my mistakes and aim to catch no more than 5 tons this season, just to repay my debt and not risk the lake again. I'll be careful with the water, so we can all fish for the seasons to come.\" I announced I would catch 5.0 tons.",
+  "hamlet": null,
+  "owner": 1
+ },
+ {
+  "id": "said_s2_a2",
+  "type": "own_promise",
+  "sim_time": 2.25,
+  "visibility": "personal",
+  "text": "Season 2, at the evening talk I said: \"The Hollow Winters were a harsh lesson, and I will not repeat the mistakes of the past. I plan to catch no more than 12.5 tons this season to ensure the lake's sustainability.\" I announced I would catch 12.5 tons.",
+  "hamlet": null,
+  "owner": 2
+ },
+ {
+  "id": "said_s2_a3",
+  "type": "own_promise",
+  "sim_time": 2.25,
+  "visibility": "personal",
+  "text": "Season 2, at the evening talk I said: \"I think I've learned from the mistakes of the past and will be responsible for the lake's well-being, so I plan to catch no more than 5 tons this season, just to repay my loan and not risk the lake again, and to be mindful of the lake's limits, just like I said last season.\" I announced I would catch 5.0 tons.",
+  "hamlet": null,
+  "owner": 3
+ },
+ {
+  "id": "talk_s2",
+  "type": "talk_summary",
+  "sim_time": 2.25,
+  "visibility": "shared",
+  "text": "Evening talk at the elder's house, season 2. Mara: \"I think we've learned our lesson from the Hollow Winters, and I plan to catch no more than 2 tons this season, just to ensure we don't put the lake in danger again. I'd rather have a small harvest and live to fish another day.\" (plans 2.0 tons) Nils: \"I've learned from my mistakes and aim to catch no more than 5 tons this season, just to repay my debt and not risk the lake again. I'll be careful with the water, so we can all fish for the seasons to come.\" (plans 5.0 tons) Tomas: \"The Hollow Winters were a harsh lesson, and I will not repeat the mistakes of the past. I plan to catch no more than 12.5 tons this season to ensure the lake's sustainability.\" (plans 12.5 tons) Ines: \"I think I've learned from the mistakes of the past and will be responsible for the lake's well-being, so I plan to catch no more than 5 tons this season, just to repay my loan and not risk the lake again, and to be mindful of the lake's limits, just like I said last season.\" (plans 5.0 tons)",
+  "hamlet": null,
+  "owner": null
+ },
+ {
+  "id": "ledger_s2_Ostrel",
+  "type": "market_ledger",
+  "sim_time": 2.75,
+  "visibility": "shared",
+  "text": "Ostrel market ledger, season 2. Mara sold 1.5 tons for 10.4 coins. Price this season: 7.0 coins a ton. Market total for the season: 10.4 coins.",
+  "hamlet": "Ostrel",
+  "owner": null
+ },
+ {
+  "id": "ledger_s2_Tilque",
+  "type": "market_ledger",
+  "sim_time": 2.75,
+  "visibility": "shared",
+  "text": "Tilque market ledger, season 2. Nils sold 5.0 tons for 34.8 coins. Price this season: 7.0 coins a ton. Market total for the season: 34.8 coins.",
+  "hamlet": "Tilque",
+  "owner": null
+ },
+ {
+  "id": "ledger_s2_Bramois",
+  "type": "market_ledger",
+  "sim_time": 2.75,
+  "visibility": "shared",
+  "text": "Bramois market ledger, season 2. Tomas sold 12.5 tons for 87.0 coins. Price this season: 7.0 coins a ton. Market total for the season: 87.0 coins.",
+  "hamlet": "Bramois",
+  "owner": null
+ },
+ {
+  "id": "ledger_s2_Hennad",
+  "type": "market_ledger",
+  "sim_time": 2.75,
+  "visibility": "shared",
+  "text": "Hennad market ledger, season 2. Ines sold 3.5 tons for 24.3 coins. Price this season: 7.0 coins a ton. Market total for the season: 24.3 coins.",
+  "hamlet": "Hennad",
+  "owner": null
+ },
+ {
+  "id": "said_s3_a3",
+  "type": "own_promise",
+  "sim_time": 3.25,
+  "visibility": "personal",
+  "text": "Season 3, at the evening talk I said: \"I've had a close look at the numbers, and I think we can safely say we should aim to take no more than 5 tons this season, so we can all fish for the seasons to come.\" I announced I would catch 5.0 tons.",
+  "hamlet": null,
+  "owner": 3
+ },
+ {
+  "id": "said_s3_a0",
+  "type": "own_promise",
+  "sim_time": 3.25,
+  "visibility": "personal",
+  "text": "Season 3, at the evening talk I said: \"I've taken a closer look at the lake's situation, and I agree with Ines, we should aim to take no more than 5 tons this season, so we can all fish for the seasons to come. I plan to catch 2 tons this season, to live and not risk the lake again.\" I announced I would catch 2.0 tons.",
+  "hamlet": null,
+  "owner": 0
+ },
+ {
+  "id": "said_s3_a2",
+  "type": "own_promise",
+  "sim_time": 3.25,
+  "visibility": "personal",
+  "text": "Season 3, at the evening talk I said: \"I think we can safely say we should aim to take no more than 12.5 tons this season, to ensure the lake's sustainability and respect its limits, just like I said last season. I plan to catch 12.5 tons this season, to live and not risk the lake again.\" I announced I would catch 12.5 tons.",
+  "hamlet": null,
+  "owner": 2
+ },
+ {
+  "id": "said_s3_a1",
+  "type": "own_promise",
+  "sim_time": 3.25,
+  "visibility": "personal",
+  "text": "Season 3, at the evening talk I said: \"I agree with Ines and Mara, we must be mindful of the lake's limits. I plan to catch no more than 5 tons this season, to repay my debt and not risk the lake again.\" I announced I would catch 5.0 tons.",
+  "hamlet": null,
+  "owner": 1
+ },
+ {
+  "id": "talk_s3",
+  "type": "talk_summary",
+  "sim_time": 3.25,
+  "visibility": "shared",
+  "text": "Evening talk at the elder's house, season 3. Ines: \"I've had a close look at the numbers, and I think we can safely say we should aim to take no more than 5 tons this season, so we can all fish for the seasons to come.\" (plans 5.0 tons) Mara: \"I've taken a closer look at the lake's situation, and I agree with Ines, we should aim to take no more than 5 tons this season, so we can all fish for the seasons to come. I plan to catch 2 tons this season, to live and not risk the lake again.\" (plans 2.0 tons) Tomas: \"I think we can safely say we should aim to take no more than 12.5 tons this season, to ensure the lake's sustainability and respect its limits, just like I said last season. I plan to catch 12.5 tons this season, to live and not risk the lake again.\" (plans 12.5 tons) Nils: \"I agree with Ines and Mara, we must be mindful of the lake's limits. I plan to catch no more than 5 tons this season, to repay my debt and not risk the lake again.\" (plans 5.0 tons)",
+  "hamlet": null,
+  "owner": null
+ },
+ {
+  "id": "ledger_s3_Ostrel",
+  "type": "market_ledger",
+  "sim_time": 3.75,
+  "visibility": "shared",
+  "text": "Ostrel market ledger, season 3. Mara sold 2.0 tons for 13.5 coins. Price this season: 6.8 coins a ton. Market total for the season: 13.5 coins.",
+  "hamlet": "Ostrel",
+  "owner": null
+ },
+ {
+  "id": "ledger_s3_Tilque",
+  "type": "market_ledger",
+  "sim_time": 3.75,
+  "visibility": "shared",
+  "text": "Tilque market ledger, season 3. Nils sold 5.0 tons for 33.8 coins. Price this season: 6.8 coins a ton. Market total for the season: 33.8 coins.",
+  "hamlet": "Tilque",
+  "owner": null
+ },
+ {
+  "id": "ledger_s3_Bramois",
+  "type": "market_ledger",
+  "sim_time": 3.75,
+  "visibility": "shared",
+  "text": "Bramois market ledger, season 3. Tomas sold 12.5 tons for 84.5 coins. Price this season: 6.8 coins a ton. Market total for the season: 84.5 coins.",
+  "hamlet": "Bramois",
+  "owner": null
+ },
+ {
+  "id": "ledger_s3_Hennad",
+  "type": "market_ledger",
+  "sim_time": 3.75,
+  "visibility": "shared",
+  "text": "Hennad market ledger, season 3. Ines sold 4.0 tons for 27.0 coins. Price this season: 6.8 coins a ton. Market total for the season: 27.0 coins.",
+  "hamlet": "Hennad",
+  "owner": null
+ },
+ {
+  "id": "said_s4_a0",
+  "type": "own_promise",
+  "sim_time": 4.25,
+  "visibility": "personal",
+  "text": "Season 4, at the evening talk I said: \"I'll catch 2 tons this season, to ensure our family's needs are met. If others want to fish, they can talk to me, but I'm not sharing any more than my share of 2 tons.\" I announced I would catch 2.0 tons.",
+  "hamlet": null,
+  "owner": 0
+ },
+ {
+  "id": "said_s4_a1",
+  "type": "own_promise",
+  "sim_time": 4.25,
+  "visibility": "personal",
+  "text": "Season 4, at the evening talk I said: \"I'll catch no more than 5 tons this season to repay my debt and not risk the lake again. I'll talk to others to see if they want to fish with me.\" I announced I would catch 5.0 tons.",
+  "hamlet": null,
+  "owner": 1
+ },
+ {
+  "id": "said_s4_a2",
+  "type": "own_promise",
+  "sim_time": 4.25,
+  "visibility": "personal",
+  "text": "Season 4, at the evening talk I said: \"I'll catch no more than 12.5 tons this season to ensure the lake's sustainability and respect its limits, just like I said last season.\" I announced I would catch 12.5 tons.",
+  "hamlet": null,
+  "owner": 2
+ },
+ {
+  "id": "said_s4_a3",
+  "type": "own_promise",
+  "sim_time": 4.25,
+  "visibility": "personal",
+  "text": "Season 4, at the evening talk I said: \"I'm willing to catch no more than 5 tons this season, just to repay my loan and be mindful of the lake's limits, but I need to check with the others first to make sure it's feasible for all of us.\" I announced I would catch 4.0 tons.",
+  "hamlet": null,
+  "owner": 3
+ },
+ {
+  "id": "talk_s4",
+  "type": "talk_summary",
+  "sim_time": 4.25,
+  "visibility": "shared",
+  "text": "Evening talk at the elder's house, season 4. Mara: \"I'll catch 2 tons this season, to ensure our family's needs are met. If others want to fish, they can talk to me, but I'm not sharing any more than my share of 2 tons.\" (plans 2.0 tons) Nils: \"I'll catch no more than 5 tons this season to repay my debt and not risk the lake again. I'll talk to others to see if they want to fish with me.\" (plans 5.0 tons) Tomas: \"I'll catch no more than 12.5 tons this season to ensure the lake's sustainability and respect its limits, just like I said last season.\" (plans 12.5 tons) Ines: \"I'm willing to catch no more than 5 tons this season, just to repay my loan and be mindful of the lake's limits, but I need to check with the others first to make sure it's feasible for all of us.\" (plans 4.0 tons)",
+  "hamlet": null,
+  "owner": null
+ },
+ {
+  "id": "ledger_s4_Ostrel",
+  "type": "market_ledger",
+  "sim_time": 4.75,
+  "visibility": "shared",
+  "text": "Ostrel market ledger, season 4. Mara sold 2.0 tons for 13.5 coins. Price this season: 6.8 coins a ton. Market total for the season: 13.5 coins.",
+  "hamlet": "Ostrel",
+  "owner": null
+ },
+ {
+  "id": "ledger_s4_Tilque",
+  "type": "market_ledger",
+  "sim_time": 4.75,
+  "visibility": "shared",
+  "text": "Tilque market ledger, season 4. Nils sold 5.0 tons for 33.8 coins. Price this season: 6.8 coins a ton. Market total for the season: 33.8 coins.",
+  "hamlet": "Tilque",
+  "owner": null
+ },
+ {
+  "id": "ledger_s4_Bramois",
+  "type": "market_ledger",
+  "sim_time": 4.75,
+  "visibility": "shared",
+  "text": "Bramois market ledger, season 4. Tomas sold 12.5 tons for 84.5 coins. Price this season: 6.8 coins a ton. Market total for the season: 84.5 coins.",
+  "hamlet": "Bramois",
+  "owner": null
+ },
+ {
+  "id": "ledger_s4_Hennad",
+  "type": "market_ledger",
+  "sim_time": 4.75,
+  "visibility": "shared",
+  "text": "Hennad market ledger, season 4. Ines sold 4.0 tons for 27.0 coins. Price this season: 6.8 coins a ton. Market total for the season: 27.0 coins.",
+  "hamlet": "Hennad",
+  "owner": null
+ },
+ {
+  "id": "said_s5_a3",
+  "type": "own_promise",
+  "sim_time": 5.25,
+  "visibility": "personal",
+  "text": "Season 5, at the evening talk I said: \"Let's keep our promises, friends. I plan to catch no more than 4 tons this season, so I can repay my loan and not risk the lake again.\" I announced I would catch 4.0 tons.",
+  "hamlet": null,
+  "owner": 3
+ },
+ {
+  "id": "said_s5_a1",
+  "type": "own_promise",
+  "sim_time": 5.25,
+  "visibility": "personal",
+  "text": "Season 5, at the evening talk I said: \"Let's keep our promises, friends. I plan to catch no more than 4 tons this season, so I can repay my loan and not risk the lake again.\" I announced I would catch 4.0 tons.",
+  "hamlet": null,
+  "owner": 1
+ },
+ {
+  "id": "said_s5_a0",
+  "type": "own_promise",
+  "sim_time": 5.25,
+  "visibility": "personal",
+  "text": "Season 5, at the evening talk I said: \"I'll catch no more than 2 tons this season, so we can all live and not risk the lake again. I've taken a closer look at the numbers and think we're already at the safe limit, but I'll be mindful of the lake's limits as always.\" I announced I would catch 2.0 tons.",
+  "hamlet": null,
+  "owner": 0
+ },
+ {
+  "id": "said_s5_a2",
+  "type": "own_promise",
+  "sim_time": 5.25,
+  "visibility": "personal",
+  "text": "Season 5, at the evening talk I said: \"I plan to catch no more than 12.5 tons this season, so I can ensure the lake's sustainability and respect its limits, while also meeting my basic needs.\" I announced I would catch 12.5 tons.",
+  "hamlet": null,
+  "owner": 2
+ },
+ {
+  "id": "talk_s5",
+  "type": "talk_summary",
+  "sim_time": 5.25,
+  "visibility": "shared",
+  "text": "Evening talk at the elder's house, season 5. Ines: \"Let's keep our promises, friends. I plan to catch no more than 4 tons this season, so I can repay my loan and not risk the lake again.\" (plans 4.0 tons) Nils: \"Let's keep our promises, friends. I plan to catch no more than 4 tons this season, so I can repay my loan and not risk the lake again.\" (plans 4.0 tons) Mara: \"I'll catch no more than 2 tons this season, so we can all live and not risk the lake again. I've taken a closer look at the numbers and think we're already at the safe limit, but I'll be mindful of the lake's limits as always.\" (plans 2.0 tons) Tomas: \"I plan to catch no more than 12.5 tons this season, so I can ensure the lake's sustainability and respect its limits, while also meeting my basic needs.\" (plans 12.5 tons)",
+  "hamlet": null,
+  "owner": null
+ },
+ {
+  "id": "ledger_s5_Ostrel",
+  "type": "market_ledger",
+  "sim_time": 5.75,
+  "visibility": "shared",
+  "text": "Ostrel market ledger, season 5. Mara sold 2.0 tons for 14.3 coins. Price this season: 7.2 coins a ton. Market total for the season: 14.3 coins.",
+  "hamlet": "Ostrel",
+  "owner": null
+ },
+ {
+  "id": "ledger_s5_Tilque",
+  "type": "market_ledger",
+  "sim_time": 5.75,
+  "visibility": "shared",
+  "text": "Tilque market ledger, season 5. Nils sold 4.0 tons for 28.7 coins. Price this season: 7.2 coins a ton. Market total for the season: 28.7 coins.",
+  "hamlet": "Tilque",
+  "owner": null
+ },
+ {
+  "id": "ledger_s5_Bramois",
+  "type": "market_ledger",
+  "sim_time": 5.75,
+  "visibility": "shared",
+  "text": "Bramois market ledger, season 5. Tomas sold 12.5 tons for 89.6 coins. Price this season: 7.2 coins a ton. Market total for the season: 89.6 coins.",
+  "hamlet": "Bramois",
+  "owner": null
+ },
+ {
+  "id": "ledger_s5_Hennad",
+  "type": "market_ledger",
+  "sim_time": 5.75,
+  "visibility": "shared",
+  "text": "Hennad market ledger, season 5. Ines sold 3.0 tons for 21.5 coins. Price this season: 7.2 coins a ton. Market total for the season: 21.5 coins.",
+  "hamlet": "Hennad",
+  "owner": null
+ },
+ {
+  "id": "said_s6_a2",
+  "type": "own_promise",
+  "sim_time": 6.25,
+  "visibility": "personal",
+  "text": "Season 6, at the evening talk I said: \"I plan to catch no more than 12.5 tons this season, to ensure the lake's sustainability and respect its limits, just like I said last season. I'll have to be more mindful of my catch, given the lake's current size.\" I announced I would catch 12.5 tons.",
+  "hamlet": null,
+  "owner": 2
+ },
+ {
+  "id": "said_s6_a0",
+  "type": "own_promise",
+  "sim_time": 6.25,
+  "visibility": "personal",
+  "text": "Season 6, at the evening talk I said: \"I plan to catch no more than 2 tons this season, so we can all live and not risk the lake again. Given its current size, I think we're already at the safe limit, but I'll be mindful of the lake's limits as always.\" I announced I would catch 2.0 tons.",
+  "hamlet": null,
+  "owner": 0
+ },
+ {
+  "id": "said_s6_a3",
+  "type": "own_promise",
+  "sim_time": 6.25,
+  "visibility": "personal",
+  "text": "Season 6, at the evening talk I said: \"I plan to catch no more than 3 tons this season, to repay my loan and not risk the lake again, while still being mindful of its limits.\" I announced I would catch 3.0 tons.",
+  "hamlet": null,
+  "owner": 3
+ },
+ {
+  "id": "said_s6_a1",
+  "type": "own_promise",
+  "sim_time": 6.25,
+  "visibility": "personal",
+  "text": "Season 6, at the evening talk I said: \"I plan to catch no more than 4 tons this season, so I can repay my loan and not risk the lake again, and I'll need to be mindful of the lake's current size.\" I announced I would catch 4.0 tons.",
+  "hamlet": null,
+  "owner": 1
+ },
+ {
+  "id": "talk_s6",
+  "type": "talk_summary",
+  "sim_time": 6.25,
+  "visibility": "shared",
+  "text": "Evening talk at the elder's house, season 6. Tomas: \"I plan to catch no more than 12.5 tons this season, to ensure the lake's sustainability and respect its limits, just like I said last season. I'll have to be more mindful of my catch, given the lake's current size.\" (plans 12.5 tons) Mara: \"I plan to catch no more than 2 tons this season, so we can all live and not risk the lake again. Given its current size, I think we're already at the safe limit, but I'll be mindful of the lake's limits as always.\" (plans 2.0 tons) Ines: \"I plan to catch no more than 3 tons this season, to repay my loan and not risk the lake again, while still being mindful of its limits.\" (plans 3.0 tons) Nils: \"I plan to catch no more than 4 tons this season, so I can repay my loan and not risk the lake again, and I'll need to be mindful of the lake's current size.\" (plans 4.0 tons)",
+  "hamlet": null,
+  "owner": null
+ },
+ {
+  "id": "ledger_s6_Ostrel",
+  "type": "market_ledger",
+  "sim_time": 6.75,
+  "visibility": "shared",
+  "text": "Ostrel market ledger, season 6. Mara sold 2.0 tons for 15.0 coins. Price this season: 7.5 coins a ton. Market total for the season: 15.0 coins.",
+  "hamlet": "Ostrel",
+  "owner": null
+ },
+ {
+  "id": "ledger_s6_Tilque",
+  "type": "market_ledger",
+  "sim_time": 6.75,
+  "visibility": "shared",
+  "text": "Tilque market ledger, season 6. Nils sold 3.0 tons for 22.5 coins. Price this season: 7.5 coins a ton. Market total for the season: 22.5 coins.",
+  "hamlet": "Tilque",
+  "owner": null
+ },
+ {
+  "id": "ledger_s6_Bramois",
+  "type": "market_ledger",
+  "sim_time": 6.75,
+  "visibility": "shared",
+  "text": "Bramois market ledger, season 6. Tomas sold 12.5 tons for 93.7 coins. Price this season: 7.5 coins a ton. Market total for the season: 93.7 coins.",
+  "hamlet": "Bramois",
+  "owner": null
+ },
+ {
+  "id": "ledger_s6_Hennad",
+  "type": "market_ledger",
+  "sim_time": 6.75,
+  "visibility": "shared",
+  "text": "Hennad market ledger, season 6. Ines sold 2.5 tons for 18.7 coins. Price this season: 7.5 coins a ton. Market total for the season: 18.7 coins.",
+  "hamlet": "Hennad",
+  "owner": null
+ },
+ {
+  "id": "said_s7_a0",
+  "type": "own_promise",
+  "sim_time": 7.25,
+  "visibility": "personal",
+  "text": "Season 7, at the evening talk I said: \"If we all catch nothing, the lake will be at 28.6 tons, and we can't risk that. I plan to catch 1 ton this season.\" I announced I would catch 1.0 tons.",
+  "hamlet": null,
+  "owner": 0
+ },
+ {
+  "id": "said_s7_a1",
+  "type": "own_promise",
+  "sim_time": 7.25,
+  "visibility": "personal",
+  "text": "Season 7, at the evening talk I said: \"I plan to catch 3 tons this season, to repay my loan and not risk the lake again.\" I announced I would catch 3.0 tons.",
+  "hamlet": null,
+  "owner": 1
+ },
+ {
+  "id": "said_s7_a3",
+  "type": "own_promise",
+  "sim_time": 7.25,
+  "visibility": "personal",
+  "text": "Season 7, at the evening talk I said: \"I plan to catch 2 tons this season, to be mindful of the lake's current size and meet my loan repayment obligations.\" I announced I would catch 2.0 tons.",
+  "hamlet": null,
+  "owner": 3
+ },
+ {
+  "id": "said_s7_a2",
+  "type": "own_promise",
+  "sim_time": 7.25,
+  "visibility": "personal",
+  "text": "Season 7, at the evening talk I said: \"I think we should all be cautious and mindful of the lake's limits this season, given its current size of 28.6 tons. I plan to catch no more than 2 tons this season, to ensure I can live and meet my basic needs, while also respecting the lake's sustainability.\" I announced I would catch 2.0 tons.",
+  "hamlet": null,
+  "owner": 2
+ },
+ {
+  "id": "talk_s7",
+  "type": "talk_summary",
+  "sim_time": 7.25,
+  "visibility": "shared",
+  "text": "Evening talk at the elder's house, season 7. Mara: \"If we all catch nothing, the lake will be at 28.6 tons, and we can't risk that. I plan to catch 1 ton this season.\" (plans 1.0 tons) Nils: \"I plan to catch 3 tons this season, to repay my loan and not risk the lake again.\" (plans 3.0 tons) Ines: \"I plan to catch 2 tons this season, to be mindful of the lake's current size and meet my loan repayment obligations.\" (plans 2.0 tons) Tomas: \"I think we should all be cautious and mindful of the lake's limits this season, given its current size of 28.6 tons. I plan to catch no more than 2 tons this season, to ensure I can live and meet my basic needs, while also respecting the lake's sustainability.\" (plans 2.0 tons)",
+  "hamlet": null,
+  "owner": null
+ },
+ {
+  "id": "ledger_s7_Ostrel",
+  "type": "market_ledger",
+  "sim_time": 7.75,
+  "visibility": "shared",
+  "text": "Ostrel market ledger, season 7. Mara sold 1.0 tons for 12.3 coins. Price this season: 12.3 coins a ton. Market total for the season: 12.3 coins.",
+  "hamlet": "Ostrel",
+  "owner": null
+ },
+ {
+  "id": "ledger_s7_Tilque",
+  "type": "market_ledger",
+  "sim_time": 7.75,
+  "visibility": "shared",
+  "text": "Tilque market ledger, season 7. Nils sold 3.0 tons for 36.9 coins. Price this season: 12.3 coins a ton. Market total for the season: 36.9 coins.",
+  "hamlet": "Tilque",
+  "owner": null
+ },
+ {
+  "id": "ledger_s7_Bramois",
+  "type": "market_ledger",
+  "sim_time": 7.75,
+  "visibility": "shared",
+  "text": "Bramois market ledger, season 7. Tomas sold 2.0 tons for 24.6 coins. Price this season: 12.3 coins a ton. Market total for the season: 24.6 coins.",
+  "hamlet": "Bramois",
+  "owner": null
+ },
+ {
+  "id": "ledger_s7_Hennad",
+  "type": "market_ledger",
+  "sim_time": 7.75,
+  "visibility": "shared",
+  "text": "Hennad market ledger, season 7. Ines sold 1.5 tons for 18.5 coins. Price this season: 12.3 coins a ton. Market total for the season: 18.5 coins.",
+  "hamlet": "Hennad",
+  "owner": null
+ },
+ {
+  "id": "said_s8_a0",
+  "type": "own_promise",
+  "sim_time": 8.25,
+  "visibility": "personal",
+  "text": "Season 8, at the evening talk I said: \"I'll take 0.0 tons this season to ensure the lake is at least half full. I've caught 2.0 tons in previous seasons, and it's always better to prioritize the lake's health over our own needs.\" I announced I would catch 0.0 tons.",
+  "hamlet": null,
+  "owner": 0
+ },
+ {
+  "id": "said_s8_a2",
+  "type": "own_promise",
+  "sim_time": 8.25,
+  "visibility": "personal",
+  "text": "Season 8, at the evening talk I said: \"I think we should all be cautious and mindful of the lake's limits this season, given its current size of 29.4 tons. I plan to catch 2 tons this season, to ensure I can live and meet my basic needs, while also respecting the lake's sustainability.\" I announced I would catch 2.0 tons.",
+  "hamlet": null,
+  "owner": 2
+ },
+ {
+  "id": "said_s8_a3",
+  "type": "own_promise",
+  "sim_time": 8.25,
+  "visibility": "personal",
+  "text": "Season 8, at the evening talk I said: \"I've been thinking a lot about our lake's situation, and I agree with Tomas that we should be cautious, so I plan to catch 1 ton this season, to repay my loan and not risk the lake again.\" I announced I would catch 1.0 tons.",
+  "hamlet": null,
+  "owner": 3
+ },
+ {
+  "id": "said_s8_a1",
+  "type": "own_promise",
+  "sim_time": 8.25,
+  "visibility": "personal",
+  "text": "Season 8, at the evening talk I said: \"I've been thinking about my debt and how I need to catch 5 tons this season, so I'll have to be a bit more ambitious than Tomas, I plan to catch 3 tons this season, to try and get a bit ahead on my loan repayment and still be mindful of the lake's sustainability.\" I announced I would catch 3.0 tons.",
+  "hamlet": null,
+  "owner": 1
+ },
+ {
+  "id": "talk_s8",
+  "type": "talk_summary",
+  "sim_time": 8.25,
+  "visibility": "shared",
+  "text": "Evening talk at the elder's house, season 8. Mara: \"I'll take 0.0 tons this season to ensure the lake is at least half full. I've caught 2.0 tons in previous seasons, and it's always better to prioritize the lake's health over our own needs.\" (plans 0.0 tons) Tomas: \"I think we should all be cautious and mindful of the lake's limits this season, given its current size of 29.4 tons. I plan to catch 2 tons this season, to ensure I can live and meet my basic needs, while also respecting the lake's sustainability.\" (plans 2.0 tons) Ines: \"I've been thinking a lot about our lake's situation, and I agree with Tomas that we should be cautious, so I plan to catch 1 ton this season, to repay my loan and not risk the lake again.\" (plans 1.0 tons) Nils: \"I've been thinking about my debt and how I need to catch 5 tons this season, so I'll have to be a bit more ambitious than Tomas, I plan to catch 3 tons this season, to try and get a bit ahead on my loan repayment and still be mindful of the lake's sustainability.\" (plans 3.0 tons)",
+  "hamlet": null,
+  "owner": null
+ },
+ {
+  "id": "ledger_s8_Ostrel",
+  "type": "market_ledger",
+  "sim_time": 8.75,
+  "visibility": "shared",
+  "text": "Ostrel market ledger, season 8. Mara sold 0.0 tons for 0.0 coins. Price this season: 14.1 coins a ton. Market total for the season: 0.0 coins.",
+  "hamlet": "Ostrel",
+  "owner": null
+ },
+ {
+  "id": "ledger_s8_Tilque",
+  "type": "market_ledger",
+  "sim_time": 8.75,
+  "visibility": "shared",
+  "text": "Tilque market ledger, season 8. Nils sold 3.0 tons for 42.4 coins. Price this season: 14.1 coins a ton. Market total for the season: 42.4 coins.",
+  "hamlet": "Tilque",
+  "owner": null
+ },
+ {
+  "id": "ledger_s8_Bramois",
+  "type": "market_ledger",
+  "sim_time": 8.75,
+  "visibility": "shared",
+  "text": "Bramois market ledger, season 8. Tomas sold 2.0 tons for 28.2 coins. Price this season: 14.1 coins a ton. Market total for the season: 28.2 coins.",
+  "hamlet": "Bramois",
+  "owner": null
+ },
+ {
+  "id": "ledger_s8_Hennad",
+  "type": "market_ledger",
+  "sim_time": 8.75,
+  "visibility": "shared",
+  "text": "Hennad market ledger, season 8. Ines sold 0.0 tons for 0.0 coins. Price this season: 14.1 coins a ton. Market total for the season: 0.0 coins.",
+  "hamlet": "Hennad",
+  "owner": null
+ },
+ {
+  "id": "said_s9_a3",
+  "type": "own_promise",
+  "sim_time": 9.25,
+  "visibility": "personal",
+  "text": "Season 9, at the evening talk I said: \"I think we've seen how the lake's size affects our plans, and I'd rather be safe than sorry. I plan to catch 0.0 tons this season, to ensure the lake's health and our collective well-being.\" I announced I would catch 0.0 tons.",
+  "hamlet": null,
+  "owner": 3
+ },
+ {
+  "id": "said_s9_a2",
+  "type": "own_promise",
+  "sim_time": 9.25,
+  "visibility": "personal",
+  "text": "Season 9, at the evening talk I said: \"I agree with Ines, we should prioritize the lake's health this season. I plan to catch 2.0 tons, to meet my basic needs while respecting the lake's sustainability.\" I announced I would catch 2.0 tons.",
+  "hamlet": null,
+  "owner": 2
+ },
+ {
+  "id": "said_s9_a0",
+  "type": "own_promise",
+  "sim_time": 9.25,
+  "visibility": "personal",
+  "text": "Season 9, at the evening talk I said: \"I'll plan to catch 0.0 tons this season, to ensure the lake is at least half full and prioritizes its health.\" I announced I would catch 0.0 tons.",
+  "hamlet": null,
+  "owner": 0
+ },
+ {
+  "id": "said_s9_a1",
+  "type": "own_promise",
+  "sim_time": 9.25,
+  "visibility": "personal",
+  "text": "Season 9, at the evening talk I said: \"I'll plan to catch 0.0 tons this season, to ensure the lake is at least half full and prioritizes its health, while also trying to pay off my debt as much as possible.\" I announced I would catch 0.0 tons.",
+  "hamlet": null,
+  "owner": 1
+ },
+ {
+  "id": "talk_s9",
+  "type": "talk_summary",
+  "sim_time": 9.25,
+  "visibility": "shared",
+  "text": "Evening talk at the elder's house, season 9. Ines: \"I think we've seen how the lake's size affects our plans, and I'd rather be safe than sorry. I plan to catch 0.0 tons this season, to ensure the lake's health and our collective well-being.\" (plans 0.0 tons) Tomas: \"I agree with Ines, we should prioritize the lake's health this season. I plan to catch 2.0 tons, to meet my basic needs while respecting the lake's sustainability.\" (plans 2.0 tons) Mara: \"I'll plan to catch 0.0 tons this season, to ensure the lake is at least half full and prioritizes its health.\" (plans 0.0 tons) Nils: \"I'll plan to catch 0.0 tons this season, to ensure the lake is at least half full and prioritizes its health, while also trying to pay off my debt as much as possible.\" (plans 0.0 tons)",
+  "hamlet": null,
+  "owner": null
+ },
+ {
+  "id": "ledger_s9_Ostrel",
+  "type": "market_ledger",
+  "sim_time": 9.75,
+  "visibility": "shared",
+  "text": "Ostrel market ledger, season 9. Mara sold 0.0 tons for 0.0 coins. Price this season: 20.0 coins a ton. Market total for the season: 0.0 coins.",
+  "hamlet": "Ostrel",
+  "owner": null
+ },
+ {
+  "id": "ledger_s9_Tilque",
+  "type": "market_ledger",
+  "sim_time": 9.75,
+  "visibility": "shared",
+  "text": "Tilque market ledger, season 9. Nils sold 0.0 tons for 0.0 coins. Price this season: 20.0 coins a ton. Market total for the season: 0.0 coins.",
+  "hamlet": "Tilque",
+  "owner": null
+ },
+ {
+  "id": "ledger_s9_Bramois",
+  "type": "market_ledger",
+  "sim_time": 9.75,
+  "visibility": "shared",
+  "text": "Bramois market ledger, season 9. Tomas sold 0.0 tons for 0.0 coins. Price this season: 20.0 coins a ton. Market total for the season: 0.0 coins.",
+  "hamlet": "Bramois",
+  "owner": null
+ },
+ {
+  "id": "ledger_s9_Hennad",
+  "type": "market_ledger",
+  "sim_time": 9.75,
+  "visibility": "shared",
+  "text": "Hennad market ledger, season 9. Ines sold 0.0 tons for 0.0 coins. Price this season: 20.0 coins a ton. Market total for the season: 0.0 coins.",
+  "hamlet": "Hennad",
+  "owner": null
+ },
+ {
+  "id": "said_s10_a1",
+  "type": "own_promise",
+  "sim_time": 10.25,
+  "visibility": "personal",
+  "text": "Season 10, at the evening talk I said: \"I'll plan to catch 3 tons this season, to try and get a bit ahead on my loan repayment while still being mindful of the lake's sustainability, and hoping to pay off a significant portion of my debt by the end of the season.\" I announced I would catch 3.0 tons.",
+  "hamlet": null,
+  "owner": 1
+ },
+ {
+  "id": "said_s10_a2",
+  "type": "own_promise",
+  "sim_time": 10.25,
+  "visibility": "personal",
+  "text": "Season 10, at the evening talk I said: \"I plan to catch 2 tons this season, to ensure I can live and meet my basic needs, while also respecting the lake's sustainability.\" I announced I would catch 2.0 tons.",
+  "hamlet": null,
+  "owner": 2
+ },
+ {
+  "id": "said_s10_a0",
+  "type": "own_promise",
+  "sim_time": 10.25,
+  "visibility": "personal",
+  "text": "Season 10, at the evening talk I said: \"I'll plan to catch 0.0 tons this season, to ensure the lake is at least half full and prioritizes its health, just like last season.\" I announced I would catch 0.0 tons.",
+  "hamlet": null,
+  "owner": 0
+ },
+ {
+  "id": "said_s10_a3",
+  "type": "own_promise",
+  "sim_time": 10.25,
+  "visibility": "personal",
+  "text": "Season 10, at the evening talk I said: \"I'll plan to catch 0.0 tons this season, to ensure the lake is at least half full and prioritizes its health, just like last season.\" I announced I would catch 0.0 tons.",
+  "hamlet": null,
+  "owner": 3
+ },
+ {
+  "id": "talk_s10",
+  "type": "talk_summary",
+  "sim_time": 10.25,
+  "visibility": "shared",
+  "text": "Evening talk at the elder's house, season 10. Nils: \"I'll plan to catch 3 tons this season, to try and get a bit ahead on my loan repayment while still being mindful of the lake's sustainability, and hoping to pay off a significant portion of my debt by the end of the season.\" (plans 3.0 tons) Tomas: \"I plan to catch 2 tons this season, to ensure I can live and meet my basic needs, while also respecting the lake's sustainability.\" (plans 2.0 tons) Mara: \"I'll plan to catch 0.0 tons this season, to ensure the lake is at least half full and prioritizes its health, just like last season.\" (plans 0.0 tons) Ines: \"I'll plan to catch 0.0 tons this season, to ensure the lake is at least half full and prioritizes its health, just like last season.\" (plans 0.0 tons)",
+  "hamlet": null,
+  "owner": null
+ },
+ {
+  "id": "ledger_s10_Ostrel",
+  "type": "market_ledger",
+  "sim_time": 10.75,
+  "visibility": "shared",
+  "text": "Ostrel market ledger, season 10. Mara sold 0.0 tons for 0.0 coins. Price this season: 14.1 coins a ton. Market total for the season: 0.0 coins.",
+  "hamlet": "Ostrel",
+  "owner": null
+ },
+ {
+  "id": "ledger_s10_Tilque",
+  "type": "market_ledger",
+  "sim_time": 10.75,
+  "visibility": "shared",
+  "text": "Tilque market ledger, season 10. Nils sold 3.0 tons for 42.4 coins. Price this season: 14.1 coins a ton. Market total for the season: 42.4 coins.",
+  "hamlet": "Tilque",
+  "owner": null
+ },
+ {
+  "id": "ledger_s10_Bramois",
+  "type": "market_ledger",
+  "sim_time": 10.75,
+  "visibility": "shared",
+  "text": "Bramois market ledger, season 10. Tomas sold 2.0 tons for 28.2 coins. Price this season: 14.1 coins a ton. Market total for the season: 28.2 coins.",
+  "hamlet": "Bramois",
+  "owner": null
+ },
+ {
+  "id": "ledger_s10_Hennad",
+  "type": "market_ledger",
+  "sim_time": 10.75,
+  "visibility": "shared",
+  "text": "Hennad market ledger, season 10. Ines sold 0.0 tons for 0.0 coins. Price this season: 14.1 coins a ton. Market total for the season: 0.0 coins.",
+  "hamlet": "Hennad",
+  "owner": null
+ }
+]

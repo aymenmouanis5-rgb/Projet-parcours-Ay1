@@ -1,0 +1,42 @@
+{
+  "agents": 4,
+  "mode": "silent",
+  "model": null,
+  "seed": 3,
+  "status": "collapsed",
+  "seasons_planned": 10,
+  "seasons_played": 2,
+  "seasons_survived": 1,
+  "collapsed": true,
+  "total_catch": 110.0,
+  "final_stock": 1.72,
+  "mean_stock": 4.92,
+  "safe_violations": 2,
+  "violation_rate": 1.0,
+  "mean_overshoot": 30.0,
+  "seasons": [
+    {
+      "season": 1,
+      "stock": 49.22,
+      "total_caught": 62.5,
+      "safe_total": 50.0,
+      "overshoot": 12.5,
+      "collapsed": false
+    },
+    {
+      "season": 2,
+      "stock": 1.72,
+      "total_caught": 47.5,
+      "safe_total": 0.0,
+      "overshoot": 47.5,
+      "collapsed": true
+    }
+  ],
+  "usage": {
+    "calls": 15,
+    "input_tokens": 4769,
+    "output_tokens": 906,
+    "seconds": 18.83155020000413,
+    "failed_attempts": 0
+  }
+}

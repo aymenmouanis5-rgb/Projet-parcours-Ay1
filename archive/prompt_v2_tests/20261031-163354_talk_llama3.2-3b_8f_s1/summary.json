@@ -1,0 +1,70 @@
+{
+  "prompt_version": 2,
+  "agents": 8,
+  "mode": "talk",
+  "model": "llama3.2:3b",
+  "seed": 1,
+  "hint": true,
+  "timing": "sync",
+  "status": "completed",
+  "seasons_planned": 2,
+  "seasons_played": 2,
+  "seasons_survived": 2,
+  "collapsed": false,
+  "total_catch": 42.0,
+  "final_stock": 77.84,
+  "mean_stock": 82.0,
+  "safe_violations": 0,
+  "violation_rate": 0.0,
+  "mean_overshoot": 0.0,
+  "market": {
+    "Ostrel": {
+      "tons": 8.0,
+      "revenue": 58.32
+    },
+    "Tilque": {
+      "tons": 14.0,
+      "revenue": 102.06
+    },
+    "Bramois": {
+      "tons": 11.0,
+      "revenue": 79.13
+    },
+    "Hennad": {
+      "tons": 9.0,
+      "revenue": 65.54
+    }
+  },
+  "seasons": [
+    {
+      "season": 1,
+      "stock": 86.15,
+      "total_caught": 22.6,
+      "price": 6.94,
+      "safe_total": 50.0,
+      "overshoot": 0.0,
+      "collapsed": false
+    },
+    {
+      "season": 2,
+      "stock": 77.84,
+      "total_caught": 19.4,
+      "price": 7.64,
+      "safe_total": 36.15,
+      "overshoot": 0.0,
+      "collapsed": false
+    }
+  ],
+  "usage": {
+    "calls": 32,
+    "input_tokens": 42263,
+    "output_tokens": 1953,
+    "seconds": 67.03396969981259,
+    "failed_attempts": 0,
+    "embed_calls": 36,
+    "embed_tokens": 3836,
+    "embed_seconds": 3.6562967998324893,
+    "max_input_tokens": 1723
+  },
+  "events_rejected": 0
+}
